@@ -29,6 +29,7 @@ class InImageBasicController: UIViewController, AdResponseHandlerProtocol {
         inImageView.loadAd(tagId: Constants.TAG_ID, options: queryItems, adResponseHandler: self)
     }
 
+    
     func adLoadingCompleted(adContent: BLIINKAdContent) {
         print("adLoadingCompleted")
     }
