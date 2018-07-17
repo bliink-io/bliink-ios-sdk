@@ -48,6 +48,16 @@
                ReferencedContainer = "container:BliinkSample.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "3A9F52612088ECD500A0CA48"
+               BuildableName = "BliinkSdkTests.xctest"
+               BlueprintName = "BliinkSdkTests"
+               ReferencedContainer = "container:../BliinkSdk/BliinkSdk.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

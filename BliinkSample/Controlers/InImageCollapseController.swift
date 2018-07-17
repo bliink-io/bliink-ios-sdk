@@ -9,7 +9,7 @@
 import UIKit
 import BliinkSdk
 
-class InImageCollapseController: UIViewController, UIScrollViewDelegate, AdResponseHandlerProtocol {
+class InImageCollapseController: UIViewController, UIScrollViewDelegate, AdResponseHandlerProtocol {    
 
     @IBOutlet var scrollView: UIScrollView!
     @IBOutlet var image: UIImageView!
@@ -20,10 +20,10 @@ class InImageCollapseController: UIViewController, UIScrollViewDelegate, AdRespo
 
         scrollView.delegate = self
         let queryItems = [
-            NSURLQueryItem(name: Constants.MODE_TEST_KEY, value: Constants.TRUE),
-            NSURLQueryItem(name: Constants.PAGE_TITLE_KEY, value: Constants.PAGE_TITLE_VALUE),
-            NSURLQueryItem(name: Constants.PAGE_DESCRIPTION_KEY, value: Constants.PAGE_DESCRIPTION_VALUE),
-            NSURLQueryItem(name: Constants.IMAGE_URL_KEY, value: Constants.IMAGE_URL_VALUE)
+            NSURLQueryItem(name: Constants.OPTIONS.MODE_TEST_KEY.rawValue, value: Constants.OPTIONS.TRUE.rawValue),
+            NSURLQueryItem(name: Constants.OPTIONS.PAGE_TITLE_KEY.rawValue, value: Constants.OPTIONS.PAGE_TITLE_VALUE.rawValue),
+            NSURLQueryItem(name: Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue, value: Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue),
+            NSURLQueryItem(name: Constants.OPTIONS.IMAGE_URL_KEY.rawValue, value: Constants.OPTIONS.IMAGE_URL_VALUE.rawValue)
         ]
         
         inImageView.initialize()
@@ -52,8 +52,8 @@ class InImageCollapseController: UIViewController, UIScrollViewDelegate, AdRespo
         print("adLoadingCompleted")
     }
     
-    func adLoadingFailed() {
-        print("adLoadingFailed")
+    func adLoadingFailed(error: String?) {
+        print("adLoadingFailed : \(String(describing: error))")
     }
     
     override func didReceiveMemoryWarning() {

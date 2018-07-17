@@ -18,46 +18,50 @@ class InImageSliderController: UIViewController, AdResponseHandlerProtocol {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+
         let queryItems = [
-            NSURLQueryItem(name: Constants.MODE_TEST_KEY, value: Constants.TRUE),
-            NSURLQueryItem(name: Constants.PAGE_TITLE_KEY, value: Constants.PAGE_TITLE_VALUE),
-            NSURLQueryItem(name: Constants.PAGE_DESCRIPTION_KEY, value: Constants.PAGE_DESCRIPTION_VALUE),
-            NSURLQueryItem(name: Constants.IMAGE_URL_KEY, value: Constants.IMAGE_URL_VALUE)
+            NSURLQueryItem(name: Constants.OPTIONS.MODE_TEST_KEY.rawValue, value: Constants.OPTIONS.TRUE.rawValue),
+            NSURLQueryItem(name: Constants.OPTIONS.PAGE_TITLE_KEY.rawValue, value: Constants.OPTIONS.PAGE_TITLE_VALUE.rawValue),
+            NSURLQueryItem(name: Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue, value: Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue),
+            NSURLQueryItem(name: Constants.OPTIONS.IMAGE_URL_KEY.rawValue, value: Constants.OPTIONS.IMAGE_URL_VALUE.rawValue)
         ]
-        
-        imageArray = [#imageLiteral(resourceName: "Image"), #imageLiteral(resourceName: "Image"), #imageLiteral(resourceName: "Image")]
-        
+
+      imageArray = [#imageLiteral(resourceName: "img1"), #imageLiteral(resourceName: "Image"), #imageLiteral(resourceName: "img4"), #imageLiteral(resourceName: "img8"), #imageLiteral(resourceName: "img9"), #imageLiteral(resourceName: "img10")]
+
         for i in 0..<imageArray.count {
             let imageView = UIImageView()
             imageView.image = imageArray[i]
             imageView.contentMode = .scaleAspectFill
             imageView.clipsToBounds = true
-            imageView.frame.size.height = CGFloat(Constants.IMAGE_SIZE)
-            imageView.frame.size.width = CGFloat(Constants.IMAGE_SIZE)
+            imageView.center = scrollView.center
+            imageView.frame.size.height = scrollView.frame.height
+            imageView.frame.size.width = scrollView.frame.width
 
             let ratio: CGFloat = CGFloat(imageView.frame.size.width / imageView.frame.size.height)
-
-            let imgWidth = scrollView.frame.width
+            let imgWidth = self.scrollView.frame.width
             let imgHeight = imgWidth / ratio
+
             let xPosition = self.view.frame.width * CGFloat(i)
             imageView.frame = CGRect(x: xPosition, y: 0, width: imgWidth, height: imgHeight)
 
             scrollView.contentSize.width = scrollView.frame.width * CGFloat(i + 1)
+            print("scroll view width = \(scrollView.frame.width)")
+            print("content width = \(scrollView.frame.width * CGFloat(i + 1))")
+
             scrollView.addSubview(imageView)
         }
         inImageView.initialize()
         inImageView.loadAd(tagId: Constants.TAG_ID, options: queryItems, adResponseHandler: self)
     }
-    
+
     func adLoadingCompleted(adContent: BLIINKAdContent) {
         print("adLoadingCompleted")
     }
-    
-    func adLoadingFailed() {
+
+    func adLoadingFailed(error: String?) {
         print("adLoadingFailed")
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

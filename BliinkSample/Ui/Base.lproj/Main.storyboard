@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DJs-da-PxU">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,21 +16,21 @@
             <objects>
                 <tableViewController id="3nE-qw-cVf" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="f4H-nC-qIK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
                             <tableViewSection id="vHe-Oi-R45">
                                 <cells>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="8zl-sa-dTx" style="IBUITableViewCellStyleDefault" id="oll-ke-7bZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="oll-ke-7bZ" id="QMH-6s-hDh">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="In-image basic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8zl-sa-dTx">
-                                                    <rect key="frame" x="16" y="0.0" width="343" height="44"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -42,14 +43,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="dHh-2j-Pxo" style="IBUITableViewCellStyleDefault" id="mCg-Xr-cjh">
-                                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mCg-Xr-cjh" id="GxS-S8-31Y">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="In-image scroll" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dHh-2j-Pxo">
-                                                    <rect key="frame" x="16" y="0.0" width="343" height="44"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -58,18 +59,18 @@
                                             </subviews>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <segue destination="kJr-Fj-La0" kind="show" id="K6j-kd-aeM"/>
+                                            <segue destination="Nw6-NP-CdL" kind="show" id="wXT-oa-YRq"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="rSy-7Z-y8T" style="IBUITableViewCellStyleDefault" id="elr-jx-d8Z">
-                                        <rect key="frame" x="0.0" y="88" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="88" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="elr-jx-d8Z" id="0xS-qS-ULh">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="In-image slider" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="rSy-7Z-y8T">
-                                                    <rect key="frame" x="16" y="0.0" width="343" height="44"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -82,14 +83,14 @@
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="ape-M6-NGn" style="IBUITableViewCellStyleDefault" id="mF8-rX-UMr">
-                                        <rect key="frame" x="0.0" y="132" width="375" height="44"/>
+                                        <rect key="frame" x="0.0" y="132" width="414" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="mF8-rX-UMr" id="H7t-g7-Oi3">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="In-image collapsing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ape-M6-NGn">
-                                                    <rect key="frame" x="16" y="0.0" width="343" height="44"/>
+                                                    <rect key="frame" x="20" y="0.0" width="374" height="44"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -116,98 +117,158 @@
             <point key="canvasLocation" x="1183" y="659"/>
         </scene>
         <!--In Image Scroll Controller-->
-        <scene sceneID="H44-3g-Y1D">
+        <scene sceneID="vi7-JM-13D">
             <objects>
-                <viewController id="kJr-Fj-La0" customClass="InImageScrollController" customModule="BliinkSample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="M5c-jR-iYa">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                <viewController id="Nw6-NP-CdL" customClass="InImageScrollController" customModule="BliinkSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="wo3-Pg-NwQ" userLabel="mainView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XqV-ng-7hf">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4f5-ai-8UQ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zXc-jv-YuK">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FWK-rU-2eX" userLabel="contentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1206.6666666666667"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="dTB-vU-Xra">
-                                                <rect key="frame" x="0.0" y="413" width="375" height="375"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raphaël Varane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wd0-9O-VMp">
+                                                <rect key="frame" x="98" y="8" width="218" height="36"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fr3-oQ-T6b">
+                                                <rect key="frame" x="8" y="51.999999999999972" width="398" height="426.33333333333326"/>
+                                                <string key="text">L Espagne ne parle que de lui, Raphaël Varane, la sensation de l année au Real Madrid. Le journal Marca a pu interrogé aujourd hui le père du défenseur français. Sa meilleure qualité ? La force mentale, a expliqué Gaston Varane.Depuis quelques semaines, toute la péninsule ibérique se demande d où sort ce jeune français de 20 ans, déjà titulaire face au Barça ou à Manchester United. Gaston Varane a été interrogé par Marca aujourd hui, et il dévoile quelques anecdotes concernant son fils, Raphaël. Comme tous les enfants, le défenseur du Real Madrid a débuté balle au pied dans le jardin familial. Il a commencé avec le rugby mais il n aimait pas ça. A la maison, il n arrêtait pas de jouer au foot et je crois que c était mon rôle de l aider à se familiariser avec le ballon. Mes enfants s amusaient à envoyer la balle chez le voisin mais Raphaël a vite compris que le football, ce n était pas ça, raconte Gaston Varane. Le papa d’origine martiniquaise a passé son temps à expliquer à ses enfants comment bien jouer au football. </string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cGL-Vk-qA0">
+                                                <rect key="frame" x="0.0" y="489" width="414" height="375"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="cYE-P1-7jY">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
+                                                    </imageView>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4PT-Zn-bOo" userLabel="inImageView" customClass="BLIINKInImageView" customModule="BliinkSdk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
+                                                        <color key="backgroundColor" red="1" green="0.1099129091" blue="0.90888620350000004" alpha="0.33651518485915494" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="375" id="eio-vW-thv"/>
-                                                    <constraint firstAttribute="width" constant="375" id="tgq-bu-iTM"/>
+                                                    <constraint firstAttribute="bottom" secondItem="cYE-P1-7jY" secondAttribute="bottom" id="3IW-Tc-nLJ"/>
+                                                    <constraint firstAttribute="trailing" secondItem="4PT-Zn-bOo" secondAttribute="trailing" id="5io-xD-Whg"/>
+                                                    <constraint firstItem="cYE-P1-7jY" firstAttribute="leading" secondItem="cGL-Vk-qA0" secondAttribute="leading" id="Fwg-jk-HYY"/>
+                                                    <constraint firstAttribute="trailing" secondItem="cYE-P1-7jY" secondAttribute="trailing" id="GL9-ZN-At6"/>
+                                                    <constraint firstAttribute="height" constant="375" id="NPX-aS-ctI"/>
+                                                    <constraint firstAttribute="bottom" secondItem="4PT-Zn-bOo" secondAttribute="bottom" id="aSp-JX-UJC"/>
+                                                    <constraint firstItem="4PT-Zn-bOo" firstAttribute="top" secondItem="cGL-Vk-qA0" secondAttribute="top" id="bxz-DG-0tI"/>
+                                                    <constraint firstItem="cYE-P1-7jY" firstAttribute="top" secondItem="cGL-Vk-qA0" secondAttribute="top" id="qDe-kG-H9x"/>
+                                                    <constraint firstItem="4PT-Zn-bOo" firstAttribute="leading" secondItem="cGL-Vk-qA0" secondAttribute="leading" id="tDU-eg-WHx"/>
                                                 </constraints>
-                                            </imageView>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4me-mK-4GE" customClass="BLIINKInImageView" customModule="BliinkSdk">
-                                                <rect key="frame" x="0.0" y="413" width="375" height="375"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             </view>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmC-aQ-Fsa">
+                                                <rect key="frame" x="8" y="873.99999999999989" width="398" height="324.66666666666663"/>
+                                                <string key="text">Ancien joueur du RC Lens, Raphaël Varane est en train de changer de dimension en équipe de France. Le joueur du Real Madrid s’impose en patron chez les Bleus.
+
+Premier buteur des Bleus face à l’Uruguay ce samedi, l’ex-Lensois semble satisfaire son sélectionneur Didier Deschamps : « Je suis content pour Raphaël. Ceux qui étaient là en 2014 ont grandi, pas en taille, mais avec 4 ans d’expérience, plus de maturité. Le vécu, on a besoin de ça. Je lui ai dit à la fin du match, j’étais avec lui, j’avais souffert, et aujourd’hui c’est l’effet inverse. Dans le foot, c’est souvent dans les moments difficiles qu’on apprend le plus. Pour lui et pour nous, c’est bien qu’il ait pu être le déclencheur. »</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstItem="dTB-vU-Xra" firstAttribute="top" secondItem="zXc-jv-YuK" secondAttribute="top" constant="413" id="QjS-zn-XlC"/>
-                                            <constraint firstAttribute="trailing" secondItem="dTB-vU-Xra" secondAttribute="trailing" id="oF9-c2-hTC"/>
-                                            <constraint firstAttribute="height" constant="1200" id="rmZ-di-kRU"/>
-                                            <constraint firstItem="dTB-vU-Xra" firstAttribute="leading" secondItem="zXc-jv-YuK" secondAttribute="leading" id="uGp-cD-xrP"/>
+                                            <constraint firstItem="cGL-Vk-qA0" firstAttribute="leading" secondItem="FWK-rU-2eX" secondAttribute="leading" id="AC4-dl-yjF"/>
+                                            <constraint firstAttribute="trailing" secondItem="YmC-aQ-Fsa" secondAttribute="trailing" constant="8" id="BIp-WP-yBd"/>
+                                            <constraint firstItem="wd0-9O-VMp" firstAttribute="centerX" secondItem="FWK-rU-2eX" secondAttribute="centerX" id="OML-vd-ktN"/>
+                                            <constraint firstAttribute="trailing" secondItem="cGL-Vk-qA0" secondAttribute="trailing" id="Uwv-4L-i18"/>
+                                            <constraint firstItem="cGL-Vk-qA0" firstAttribute="top" secondItem="fr3-oQ-T6b" secondAttribute="bottom" constant="10" id="Z4g-0Q-kAt"/>
+                                            <constraint firstItem="fr3-oQ-T6b" firstAttribute="leading" secondItem="FWK-rU-2eX" secondAttribute="leading" constant="8" id="bb8-Pa-Ucg"/>
+                                            <constraint firstItem="YmC-aQ-Fsa" firstAttribute="leading" secondItem="FWK-rU-2eX" secondAttribute="leading" constant="8" id="dex-34-Tog"/>
+                                            <constraint firstItem="YmC-aQ-Fsa" firstAttribute="top" secondItem="cGL-Vk-qA0" secondAttribute="bottom" constant="10" id="fXF-0y-1Lh"/>
+                                            <constraint firstItem="wd0-9O-VMp" firstAttribute="top" secondItem="FWK-rU-2eX" secondAttribute="top" constant="8" id="h5j-9p-zGb"/>
+                                            <constraint firstAttribute="trailing" secondItem="fr3-oQ-T6b" secondAttribute="trailing" constant="8" id="oel-af-m2e"/>
+                                            <constraint firstItem="fr3-oQ-T6b" firstAttribute="top" secondItem="wd0-9O-VMp" secondAttribute="bottom" constant="8" id="wYr-4H-kra"/>
+                                            <constraint firstAttribute="bottom" secondItem="YmC-aQ-Fsa" secondAttribute="bottom" constant="8" id="zgn-fN-uZu"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="zXc-jv-YuK" firstAttribute="leading" secondItem="XqV-ng-7hf" secondAttribute="leading" id="BFC-oU-bvj"/>
-                                    <constraint firstItem="zXc-jv-YuK" firstAttribute="top" secondItem="XqV-ng-7hf" secondAttribute="top" id="Dea-Kz-3ad"/>
-                                    <constraint firstAttribute="trailing" secondItem="zXc-jv-YuK" secondAttribute="trailing" id="IKy-UD-YkM"/>
-                                    <constraint firstAttribute="bottom" secondItem="zXc-jv-YuK" secondAttribute="bottom" id="k1B-Ev-qJl"/>
+                                    <constraint firstItem="FWK-rU-2eX" firstAttribute="top" secondItem="4f5-ai-8UQ" secondAttribute="top" id="DWZ-6g-BP1"/>
+                                    <constraint firstAttribute="bottom" secondItem="FWK-rU-2eX" secondAttribute="bottom" id="QXF-rb-l3w"/>
+                                    <constraint firstAttribute="trailing" secondItem="FWK-rU-2eX" secondAttribute="trailing" id="UgO-Ue-Z4w"/>
+                                    <constraint firstItem="FWK-rU-2eX" firstAttribute="centerX" secondItem="4f5-ai-8UQ" secondAttribute="centerX" id="c7f-mY-sCq"/>
+                                    <constraint firstItem="FWK-rU-2eX" firstAttribute="leading" secondItem="4f5-ai-8UQ" secondAttribute="leading" id="o8A-T3-CYD"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="XqV-ng-7hf" firstAttribute="leading" secondItem="tng-41-ttg" secondAttribute="leading" id="0Pu-vh-ABc"/>
-                            <constraint firstItem="XqV-ng-7hf" firstAttribute="trailing" secondItem="tng-41-ttg" secondAttribute="trailing" id="81G-ir-2lg"/>
-                            <constraint firstItem="XqV-ng-7hf" firstAttribute="top" secondItem="M5c-jR-iYa" secondAttribute="top" id="AHZ-3h-vyY"/>
-                            <constraint firstItem="XqV-ng-7hf" firstAttribute="bottom" secondItem="tng-41-ttg" secondAttribute="bottom" id="LmN-Ip-TvJ"/>
+                            <constraint firstItem="4f5-ai-8UQ" firstAttribute="trailing" secondItem="I1A-w4-4Ga" secondAttribute="trailing" id="9HU-Wz-rzE"/>
+                            <constraint firstItem="4f5-ai-8UQ" firstAttribute="leading" secondItem="I1A-w4-4Ga" secondAttribute="leading" id="Cx3-vn-apa"/>
+                            <constraint firstItem="4f5-ai-8UQ" firstAttribute="bottom" secondItem="I1A-w4-4Ga" secondAttribute="bottom" id="O3R-wY-ffH"/>
+                            <constraint firstItem="4f5-ai-8UQ" firstAttribute="top" secondItem="wo3-Pg-NwQ" secondAttribute="top" id="pRz-v6-2bS"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="tng-41-ttg"/>
+                        <viewLayoutGuide key="safeArea" id="I1A-w4-4Ga"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1200"/>
                     <connections>
-                        <outlet property="inImageView" destination="4me-mK-4GE" id="ag2-R5-w3b"/>
+                        <outlet property="inImageView" destination="4PT-Zn-bOo" id="5Mc-CR-pxc"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Q71-fq-89w" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LO4-jp-1jd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2017" y="-685"/>
+            <point key="canvasLocation" x="1641" y="-599"/>
         </scene>
         <!--In Image Basic Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="InImageBasicController" customModule="BliinkSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raphaël Varane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="b19-80-7sw">
+                                <rect key="frame" x="98" y="64" width="218" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pbm-nI-pxj">
-                                <rect key="frame" x="0.0" y="176" width="375" height="315"/>
+                                <rect key="frame" x="0.0" y="108" width="414" height="300"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="6jh-x5-Coz">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="315"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="img1" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6jh-x5-Coz">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </imageView>
                                     <view clipsSubviews="YES" contentMode="scaleAspectFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3y8-Bk-vAF" customClass="BLIINKInImageView" customModule="BliinkSdk">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="315"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="315" id="u3g-k2-0Ca"/>
+                                    <constraint firstAttribute="height" constant="300" id="u3g-k2-0Ca"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4aj-Ru-6Ly">
+                                <rect key="frame" x="8" y="416" width="398" height="81.333333333333314"/>
+                                <string key="text">Ancien joueur du RC Lens, Raphaël Varane est en train de changer de dimension en équipe de France. Le joueur du Real Madrid s’impose en patron chez les Bleus.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="pbm-nI-pxj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="bvO-Db-wCE"/>
-                            <constraint firstItem="pbm-nI-pxj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lFw-My-1PI"/>
-                            <constraint firstItem="pbm-nI-pxj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="qPo-Sw-G1Z"/>
-                            <constraint firstItem="pbm-nI-pxj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tat-Ev-WdX"/>
-                            <constraint firstItem="pbm-nI-pxj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="vZF-Gn-JU1"/>
+                            <constraint firstItem="pbm-nI-pxj" firstAttribute="top" secondItem="b19-80-7sw" secondAttribute="bottom" constant="8" id="7x5-Eu-MLN"/>
+                            <constraint firstItem="pbm-nI-pxj" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="O6i-VK-hbu"/>
+                            <constraint firstItem="pbm-nI-pxj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Odd-bN-7JN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4aj-Ru-6Ly" secondAttribute="trailing" constant="8" id="Woy-Mw-G6H"/>
+                            <constraint firstItem="4aj-Ru-6Ly" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="8" id="Zfx-0X-8HF"/>
+                            <constraint firstItem="b19-80-7sw" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="ap6-BC-QV7"/>
+                            <constraint firstItem="4aj-Ru-6Ly" firstAttribute="top" secondItem="pbm-nI-pxj" secondAttribute="bottom" constant="8" id="cUl-qi-xRZ"/>
+                            <constraint firstItem="pbm-nI-pxj" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="hc8-nP-6mh"/>
+                            <constraint firstItem="b19-80-7sw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="luu-j6-ayu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -219,43 +280,64 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2016.5" y="242.5"/>
+            <point key="canvasLocation" x="2015.2" y="242.42878560719643"/>
         </scene>
         <!--In Image Slider Controller-->
         <scene sceneID="Uuf-by-y0r">
             <objects>
                 <viewController id="EOF-4V-YfT" customClass="InImageSliderController" customModule="BliinkSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XBf-A2-FbH">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J20-2f-JhQ">
-                                <rect key="frame" x="0.0" y="32" width="375" height="667"/>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mp-f8-sC4">
+                                <rect key="frame" x="0.0" y="64" width="414" height="375"/>
                                 <subviews>
-                                    <view contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BmU-fr-HZq" userLabel="inImageView" customClass="BLIINKInImageView" customModule="BliinkSdk">
-                                        <rect key="frame" x="67" y="111" width="240" height="432"/>
+                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUK-GB-W58" userLabel="inImageView" customClass="BLIINKInImageView" customModule="BliinkSdk">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </view>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="375" id="OPM-xd-SKc"/>
+                                </constraints>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raphaël Varane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1O-Ne-VCx">
+                                <rect key="frame" x="0.0" y="447" width="218" height="36"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OB8-Mk-hTm">
+                                <rect key="frame" x="8" y="490.99999999999994" width="398" height="142.33333333333331"/>
+                                <string key="text">Ancien joueur du RC Lens, Raphaël Varane est en train de changer de dimension en équipe de France. Le joueur du Real Madrid s’impose en patron chez les Bleus. remier buteur des Bleus face à l’Uruguay ce samedi, l’ex-Lensois semble satisfaire son sélectionneur Didier Deschamps : « Je suis content pour Raphaël.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="J20-2f-JhQ" firstAttribute="centerY" secondItem="rQz-5d-35O" secondAttribute="centerY" id="Jkk-08-4Pt"/>
-                            <constraint firstItem="J20-2f-JhQ" firstAttribute="height" secondItem="XBf-A2-FbH" secondAttribute="height" id="RMU-s0-d3R"/>
-                            <constraint firstItem="J20-2f-JhQ" firstAttribute="centerX" secondItem="rQz-5d-35O" secondAttribute="centerX" id="Uxz-TG-y3X"/>
-                            <constraint firstItem="J20-2f-JhQ" firstAttribute="width" secondItem="XBf-A2-FbH" secondAttribute="width" id="r5h-m8-UMi"/>
+                            <constraint firstItem="OB8-Mk-hTm" firstAttribute="top" secondItem="J1O-Ne-VCx" secondAttribute="bottom" constant="8" id="7HI-zz-ZyS"/>
+                            <constraint firstItem="J1O-Ne-VCx" firstAttribute="leading" secondItem="rQz-5d-35O" secondAttribute="leading" id="AZi-Os-n94"/>
+                            <constraint firstItem="rQz-5d-35O" firstAttribute="trailing" secondItem="OB8-Mk-hTm" secondAttribute="trailing" constant="8" id="BLC-CM-kvg"/>
+                            <constraint firstItem="OB8-Mk-hTm" firstAttribute="leading" secondItem="rQz-5d-35O" secondAttribute="leading" constant="8" id="IgG-dK-TNH"/>
+                            <constraint firstItem="J1O-Ne-VCx" firstAttribute="top" secondItem="0Mp-f8-sC4" secondAttribute="bottom" constant="8" id="Om7-W6-nf0"/>
+                            <constraint firstItem="rQz-5d-35O" firstAttribute="trailing" secondItem="0Mp-f8-sC4" secondAttribute="trailing" id="Qjk-Zv-6GB"/>
+                            <constraint firstItem="0Mp-f8-sC4" firstAttribute="leading" secondItem="rQz-5d-35O" secondAttribute="leading" id="eG5-MJ-f0Z"/>
+                            <constraint firstItem="0Mp-f8-sC4" firstAttribute="top" secondItem="rQz-5d-35O" secondAttribute="top" id="ofr-ZF-jPp"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="J1O-Ne-VCx" secondAttribute="trailing" constant="20" symbolic="YES" id="r1a-Wc-0N7"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="rQz-5d-35O"/>
                     </view>
                     <connections>
-                        <outlet property="inImageView" destination="BmU-fr-HZq" id="Yse-0d-phl"/>
-                        <outlet property="scrollView" destination="J20-2f-JhQ" id="TmU-UX-tAB"/>
+                        <outlet property="inImageView" destination="CUK-GB-W58" id="Q9L-yL-D2f"/>
+                        <outlet property="scrollView" destination="0Mp-f8-sC4" id="wg4-er-3Il"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P2O-40-A3A" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2017" y="958"/>
+            <point key="canvasLocation" x="2010.4000000000001" y="952.17391304347836"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="SKn-aT-HrL">
@@ -263,7 +345,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="DJs-da-PxU" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2v6-4k-qac">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -279,71 +361,97 @@
         <scene sceneID="3hk-YZ-1YI">
             <objects>
                 <viewController id="0qS-SZ-qYO" customClass="InImageCollapseController" customModule="BliinkSample" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="dhp-UJ-Usb">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                    <view key="view" contentMode="scaleToFill" id="dhp-UJ-Usb" userLabel="mainView">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4PE-Bb-e2D">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNQ-VQ-0ym">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1200"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aNQ-VQ-0ym" userLabel="contentView">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1200"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="CwU-zK-aXc">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </imageView>
-                                            <view clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="215-0L-VgO" customClass="BLIINKInImageView" customModule="BliinkSdk">
-                                                <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                            </view>
-                                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GAx-x7-jw8" userLabel="Article">
-                                                <rect key="frame" x="0.0" y="371" width="375" height="829"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VEj-7l-Syi">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vp6-qT-mCG">
-                                                        <rect key="frame" x="8" y="8" width="50" height="29"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="CwU-zK-aXc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
+                                                    </imageView>
+                                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="215-0L-VgO" customClass="BLIINKInImageView" customModule="BliinkSdk">
+                                                        <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
+                                                    </view>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="215-0L-VgO" secondAttribute="bottom" id="688-4f-VDP"/>
+                                                    <constraint firstItem="215-0L-VgO" firstAttribute="top" secondItem="VEj-7l-Syi" secondAttribute="top" id="AoT-ri-Toi"/>
+                                                    <constraint firstAttribute="trailing" secondItem="CwU-zK-aXc" secondAttribute="trailing" id="Bcw-Kl-Utm"/>
+                                                    <constraint firstItem="CwU-zK-aXc" firstAttribute="leading" secondItem="VEj-7l-Syi" secondAttribute="leading" id="Pes-fP-hmT"/>
+                                                    <constraint firstItem="CwU-zK-aXc" firstAttribute="top" secondItem="VEj-7l-Syi" secondAttribute="top" id="Zej-sQ-0ju"/>
+                                                    <constraint firstAttribute="height" constant="375" id="jMp-uv-nSh"/>
+                                                    <constraint firstItem="215-0L-VgO" firstAttribute="leading" secondItem="VEj-7l-Syi" secondAttribute="leading" id="obg-g4-b5S"/>
+                                                    <constraint firstAttribute="bottom" secondItem="CwU-zK-aXc" secondAttribute="bottom" id="qZp-jK-8gb"/>
+                                                    <constraint firstAttribute="trailing" secondItem="215-0L-VgO" secondAttribute="trailing" id="zXa-vc-fZG"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GAx-x7-jw8" userLabel="Article">
+                                                <rect key="frame" x="0.0" y="375" width="414" height="805"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Raphaël Varane" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vp6-qT-mCG">
+                                                        <rect key="frame" x="8" y="8" width="175.66666666666666" height="29"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqL-aP-9PB">
-                                                        <rect key="frame" x="8" y="45" width="359" height="210"/>
-                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ex elit, ullamcorper id metus ut, rhoncus suscipit sapien. Phasellus vestibulum felis in ex posuere dapibus. Cras pretium justo id enim posuere, nec pretium mi hendrerit. Integer consequat eleifend felis in sollicitudin. Quisque fermentum at tellus vitae vestibulum. Suspendisse in elit ultrices, hendrerit sapien non, scelerisque urna. Fusce vitae sodales tortor, semper ultricies purus.</string>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OqL-aP-9PB">
+                                                        <rect key="frame" x="8" y="45.000000000000014" width="398" height="223.33333333333337"/>
+                                                        <string key="text">Premier buteur des Bleus face à l’Uruguay ce samedi, l’ex-Lensois semble satisfaire son sélectionneur Didier Deschamps : « Je suis content pour Raphaël. Ceux qui étaient là en 2014 ont grandi, pas en taille, mais avec 4 ans d’expérience, plus de maturité. Le vécu, on a besoin de ça. Je lui ai dit à la fin du match, j’étais avec lui, j’avais souffert, et aujourd’hui c’est l’effet inverse. Dans le foot, c’est souvent dans les moments difficiles qu’on apprend le plus. Pour lui et pour nous, c’est bien qu’il ait pu être le déclencheur. »</string>
                                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="OqL-aP-9PB" firstAttribute="top" secondItem="vp6-qT-mCG" secondAttribute="bottom" constant="8" id="YMN-c7-mfs"/>
+                                                    <constraint firstItem="vp6-qT-mCG" firstAttribute="leading" secondItem="GAx-x7-jw8" secondAttribute="leading" constant="8" id="ZTa-Z6-Sqc"/>
+                                                    <constraint firstItem="OqL-aP-9PB" firstAttribute="leading" secondItem="GAx-x7-jw8" secondAttribute="leading" constant="8" id="dT3-h1-6TS"/>
+                                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="vp6-qT-mCG" secondAttribute="trailing" constant="8" id="pY3-AC-Dve"/>
+                                                    <constraint firstAttribute="trailing" secondItem="OqL-aP-9PB" secondAttribute="trailing" constant="8" id="rnZ-Wu-oDx"/>
+                                                    <constraint firstItem="vp6-qT-mCG" firstAttribute="top" secondItem="GAx-x7-jw8" secondAttribute="top" constant="8" id="vaO-Fd-M5Y"/>
+                                                </constraints>
                                             </view>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1200" id="V5z-98-M6d"/>
+                                            <constraint firstAttribute="trailing" secondItem="GAx-x7-jw8" secondAttribute="trailing" id="6Pu-3t-nQB"/>
+                                            <constraint firstItem="VEj-7l-Syi" firstAttribute="top" secondItem="aNQ-VQ-0ym" secondAttribute="top" id="7sy-84-uzf"/>
+                                            <constraint firstAttribute="trailing" secondItem="VEj-7l-Syi" secondAttribute="trailing" id="JPz-9u-48q"/>
+                                            <constraint firstAttribute="height" constant="1200" id="Y8E-qI-4Kw"/>
+                                            <constraint firstItem="GAx-x7-jw8" firstAttribute="leading" secondItem="aNQ-VQ-0ym" secondAttribute="leading" id="cHg-sd-wTs"/>
+                                            <constraint firstItem="VEj-7l-Syi" firstAttribute="leading" secondItem="aNQ-VQ-0ym" secondAttribute="leading" id="uCH-do-2SN"/>
+                                            <constraint firstAttribute="bottom" secondItem="GAx-x7-jw8" secondAttribute="bottom" constant="20" id="xZh-7F-Tqs"/>
+                                            <constraint firstItem="GAx-x7-jw8" firstAttribute="top" secondItem="aNQ-VQ-0ym" secondAttribute="top" constant="375" id="yiZ-gF-bLN"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="aNQ-VQ-0ym" secondAttribute="trailing" id="8D3-ay-kgY"/>
-                                    <constraint firstItem="aNQ-VQ-0ym" firstAttribute="top" secondItem="4PE-Bb-e2D" secondAttribute="top" id="Tbq-kN-gFO"/>
-                                    <constraint firstAttribute="bottom" secondItem="aNQ-VQ-0ym" secondAttribute="bottom" id="s0j-iO-OcR"/>
-                                    <constraint firstItem="aNQ-VQ-0ym" firstAttribute="leading" secondItem="4PE-Bb-e2D" secondAttribute="leading" id="vYT-m6-SSx"/>
+                                    <constraint firstAttribute="trailing" secondItem="aNQ-VQ-0ym" secondAttribute="trailing" id="22K-Mf-vQW"/>
+                                    <constraint firstItem="aNQ-VQ-0ym" firstAttribute="leading" secondItem="4PE-Bb-e2D" secondAttribute="leading" id="Vfq-eU-PAN"/>
+                                    <constraint firstItem="aNQ-VQ-0ym" firstAttribute="centerX" secondItem="4PE-Bb-e2D" secondAttribute="centerX" id="eux-RI-rf5"/>
+                                    <constraint firstAttribute="bottom" secondItem="aNQ-VQ-0ym" secondAttribute="bottom" constant="-200" id="iKL-Uf-1a3"/>
+                                    <constraint firstItem="aNQ-VQ-0ym" firstAttribute="top" secondItem="4PE-Bb-e2D" secondAttribute="top" id="naV-cQ-JYW"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="4PE-Bb-e2D" firstAttribute="leading" secondItem="Nov-AO-s8R" secondAttribute="leading" id="3Ff-Bx-gui"/>
-                            <constraint firstItem="aNQ-VQ-0ym" firstAttribute="width" secondItem="dhp-UJ-Usb" secondAttribute="width" id="GCg-Vu-erf"/>
+                            <constraint firstItem="4PE-Bb-e2D" firstAttribute="bottom" secondItem="Nov-AO-s8R" secondAttribute="bottom" id="JgF-C4-5Zw"/>
                             <constraint firstItem="4PE-Bb-e2D" firstAttribute="trailing" secondItem="Nov-AO-s8R" secondAttribute="trailing" id="XCq-US-XVF"/>
                             <constraint firstItem="4PE-Bb-e2D" firstAttribute="top" secondItem="dhp-UJ-Usb" secondAttribute="top" id="j2m-AK-ACj"/>
-                            <constraint firstItem="4PE-Bb-e2D" firstAttribute="bottom" secondItem="Nov-AO-s8R" secondAttribute="bottom" id="uEO-XI-cqu"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Nov-AO-s8R"/>
                     </view>
-                    <size key="freeformSize" width="375" height="1200"/>
                     <connections>
                         <outlet property="image" destination="CwU-zK-aXc" id="vpi-rI-RUk"/>
                         <outlet property="inImageView" destination="215-0L-VgO" id="NVD-4Y-qog"/>
@@ -352,10 +460,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MZb-8V-iB5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1181.5999999999999" y="1762.2188905547227"/>
+            <point key="canvasLocation" x="1180.4347826086957" y="1761.6847826086957"/>
         </scene>
     </scenes>
     <resources>
         <image name="Image" width="600" height="315"/>
+        <image name="img1" width="1200" height="630"/>
     </resources>
 </document>

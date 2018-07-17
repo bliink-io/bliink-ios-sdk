@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
 
-        BLIINK.getInstance().initialize(network_id: 6, site_id: 10)
+        BLIINK.getInstance().initialize(network_id: 6, site_id: 10, authorizeLocation: true)
         // Override point for customization after application launch.
         return true
     }
