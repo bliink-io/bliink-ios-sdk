@@ -151,7 +151,6 @@
                                                     </imageView>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4PT-Zn-bOo" userLabel="inImageView" customClass="BLIINKInImageView" customModule="BliinkSdk">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
-                                                        <color key="backgroundColor" red="1" green="0.1099129091" blue="0.90888620350000004" alpha="0.33651518485915494" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </view>
                                                 </subviews>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -291,11 +290,11 @@ Premier buteur des Bleus face à l’Uruguay ce samedi, l’ex-Lensois semble sa
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Mp-f8-sC4">
-                                <rect key="frame" x="0.0" y="64" width="414" height="375"/>
+                                <rect key="frame" x="0.0" y="64" width="320" height="375"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CUK-GB-W58" userLabel="inImageView" customClass="BLIINKInImageView" customModule="BliinkSdk">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="375"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="375"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     </view>
                                 </subviews>
                                 <constraints>

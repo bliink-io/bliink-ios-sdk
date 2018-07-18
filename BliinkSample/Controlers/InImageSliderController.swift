@@ -45,9 +45,6 @@ class InImageSliderController: UIViewController, AdResponseHandlerProtocol {
             imageView.frame = CGRect(x: xPosition, y: 0, width: imgWidth, height: imgHeight)
 
             scrollView.contentSize.width = scrollView.frame.width * CGFloat(i + 1)
-            print("scroll view width = \(scrollView.frame.width)")
-            print("content width = \(scrollView.frame.width * CGFloat(i + 1))")
-
             scrollView.addSubview(imageView)
         }
         inImageView.initialize()
