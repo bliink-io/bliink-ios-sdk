@@ -1,11 +1,5 @@
 # BLIINK IOS SDK
 
-### Create the BLIINK instance
-You have to initialize the singleton BLIINK with the network id, site id and a boolean for the location authorization 
-```
-BLIINK.getInstance().initialize(network_id: [YOUR_NETWORK_ID], site_id: [YOUR_SITE_ID], authorizeLocation: true);
-```
-
 ### Load an ad
 To load an ad you need to :
 - Create an instance of BLIINK with : the context, network ID, site ID and a boolean if you authorize the location or not the location authorization
@@ -28,6 +22,7 @@ let queryItems = [
 ```
 
 - And a call to the function loadAd with the tag ID, your array of options and an optional handler with your class inheriting from ```AdResponseHandlerProtocol```
+You can also add a timeout, it's an optional parameter
 ```
 //Handler
 func adLoadingCompleted(adContent: BLIINKAdContent) {
@@ -39,5 +34,5 @@ func adLoadingCompleted(adContent: BLIINKAdContent) {
     }
         
 //Call to load the new ad
-inImageView.loadAd(tagId: [YOUR_TAG_ID], options: queryItems, adResponseHandler: self)
+inImageView.loadAd(tagId: [YOUR_TAG_ID], options: queryItems, adResponseHandler: self, timeout: 4)
 ```
