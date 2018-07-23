@@ -27,7 +27,6 @@ class InImageScrollController: UIViewController, AdResponseHandlerProtocol {
         ]
         
         inImageView.initialize()
-        //imageView.frame.size.width = 3//UIScreen.main.bounds.width
         inImageView.loadAd(tagId: Constants.TAG_ID, options: queryItems, adResponseHandler: self)
     }
     

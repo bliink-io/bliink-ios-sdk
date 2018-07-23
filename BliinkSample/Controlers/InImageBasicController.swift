@@ -24,11 +24,10 @@ class InImageBasicController: UIViewController, AdResponseHandlerProtocol {
             NSURLQueryItem(name: Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue, value: Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue),
             NSURLQueryItem(name: Constants.OPTIONS.IMAGE_URL_KEY.rawValue, value: Constants.OPTIONS.IMAGE_URL_VALUE.rawValue)
         ]
-        
+
         inImageView.initialize()
         inImageView.loadAd(tagId: Constants.TAG_ID, options: queryItems, adResponseHandler: self)
     }
-
     
     func adLoadingCompleted(adContent: BLIINKAdContent) {
         print("adLoadingCompleted")
@@ -40,6 +39,6 @@ class InImageBasicController: UIViewController, AdResponseHandlerProtocol {
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        // Dispose of any resources that can be recreated
     }
 }

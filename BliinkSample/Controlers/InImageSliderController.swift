@@ -48,7 +48,6 @@ class InImageSliderController: UIViewController, AdResponseHandlerProtocol {
             imageView.frame = CGRect(x: xPosition, y: 0, width: imgWidth, height: imgHeight)
             
             scrollView.contentSize.width = scrollView.frame.width * CGFloat(i + 1)
-            //scrollView.contentSize.width = UIScreen.main.bounds.width * CGFloat(i + 1)
             
             scrollView.addSubview(imageView)
         }
