@@ -2,9 +2,9 @@
 
 ### Load an ad
 To load an ad you need to :
-- Create an instance of BLIINK with : the context, network ID, site ID and a boolean if you authorize the location or not the location authorization
+- Create an instance of BLIINK with : the context, network ID, site ID, a boolean if you authorize the location or not the location authorization and the timeout for the requests. If it's nil the basic timeout is 5 seconds
 ```
-BLIINK.getInstance().initialize(this, [YOUR_NETWORK_ID], [YOUR_SITE_ID], true);
+BLIINK.getInstance().initialize(network_id: [YOUR_NETWORK_ID], site_id: [YOUR_SITE_ID], authorizeLocation: true, timeout: nil)
 ```
 
 - An array of NSURLQueryItem with your options:
@@ -22,7 +22,6 @@ let queryItems = [
 ```
 
 - And a call to the function loadAd with the tag ID, your array of options and an optional handler with your class inheriting from ```AdResponseHandlerProtocol```
-You can also add a timeout, it's an optional parameter
 ```
 //Handler
 func adLoadingCompleted(adContent: BLIINKAdContent) {
@@ -34,5 +33,5 @@ func adLoadingCompleted(adContent: BLIINKAdContent) {
     }
         
 //Call to load the new ad
-inImageView.loadAd(tagId: [YOUR_TAG_ID], options: queryItems, adResponseHandler: self, timeout: 4)
+inImageView.loadAd(tagId: [YOUR_TAG_ID], options: queryItems, adResponseHandler: self)
 ```
