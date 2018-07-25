@@ -1,5 +1,12 @@
 # BLIINK IOS SDK
 
+## Installation
+### CocoaPods
+- Add this to your ```Podfile```
+```
+pod 'BliinkSdk', '[LATEST_VERSION]'
+```
+
 ### Load an ad
 To load an ad you need to :
 - Create an instance of BLIINK with : the context, network ID, site ID, a boolean if you authorize the location or not the location authorization and the timeout for the requests. If it's nil the basic timeout is 5 seconds
