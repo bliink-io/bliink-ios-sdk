@@ -18,10 +18,10 @@ In your file ```AppDelegate.swift```
 BLIINK.getInstance().initialize(network_id: [YOUR_NETWORK_ID], site_id: [YOUR_SITE_ID], authorizeLocation: true, timeout: 3)
 ```
 ```
-network_id : It's your network id
-site_id : It's your site id
-authorizeLocation : This parameter is optional and false by default. It's a boolean to authorize or not the location
-timeout : This parameter is optional and set to 5 seconds by default. It's the timeout that will be used to request the ad
+network_id : Integer : It's your network id
+site_id : Integer : It's your site id
+authorizeLocation : Boolean : This parameter is optional and false by default. It's a boolean to authorize or not the location
+timeout : Integer : This parameter is optional and set to 5 seconds by default. It's the timeout that will be used to request the ad
 ```
 ### Create the BLIINKInImageView in your ```soryboard``` or ```.xib``` file
 - Create an instance of BLIINKInImageView in your storyboard or in a .xib file. It need to be encapsulated in the same view as the image like :
