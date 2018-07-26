@@ -36,12 +36,12 @@ let options = [
         ]
 ````
 ````
-pageTitle : 
-pageDescription :
-keywords :
-imageUrl :
-pageUrl :
-tags :
+pageTitle : Title of the page
+pageDescription : Description of the page
+keywords : Keywords for the targeting
+imageUrl : Url of the image
+pageUrl : Url of the page
+tags : Tags for the targeting
 ````
 
 #### Create the view
