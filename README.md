@@ -27,12 +27,12 @@ In your ```ViewController.swift``` file
 - Create an array with your options:
 ````
 let options = [
-            "pageTitle" : "Les meilleures citations de ...",
-            "pageDescription" : "Vainqueur au match aller en Italie (0-3)...",
-            "keywords" : "bliink, rafael varane, has_diapo",
-            "imageUrl" : "http://sf1.viepratique.fr/wp-content/uploads/sites/4/2018/03/c1-1.png",
-            "pageUrl" : "http://www.viepratique.fr/psycho/citations-de-caroline-receveur-606352.html",
-            "tags" : "bliink, raphael varane, has_diapo"
+            "pageTitle" : "Coupe du monde 2018",
+            "pageDescription" : "Le bus des Bleus sur les Champs-Elysees",
+            "keywords" : "bliink, foot, coupe du monde",
+            "imageUrl" : "https://img.20mn.fr/ZUC1UEnBSu-PK5nehAfXsA/960x614_bus-bleus-champs-elysees",
+            "pageUrl" : "https://www.20minutes.fr/sport/2313599-20180726-coupe-monde-2018-alexandre-benalla-donne-ordre-accelerer-rythme-bus",
+            "tags" : "bliink, foot, coupe du monde"
         ]
 ````
 ````
