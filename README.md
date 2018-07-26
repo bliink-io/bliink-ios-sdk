@@ -24,7 +24,7 @@ authorizeLocation : Boolean : This parameter is optional and false by default. I
 timeout : Integer : This parameter is optional and set to 5 seconds by default. It's the timeout that will be used to request the ad
 ```
 ### Create the BLIINKInImageView in your ```soryboard``` or ```.xib``` file
-- Create an instance of BLIINKInImageView in your storyboard or in a .xib file. It need to be encapsulated in the same view as the image like :
+- Create the BLIINKInImageView in your storyboard or in a .xib file. It need to be encapsulated in the same view as the image like :
 ```
 - contentView
   - image
