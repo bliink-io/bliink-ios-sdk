@@ -9,27 +9,37 @@ pod 'BliinkSdk', '[LATEST_VERSION]'
 
 ## Usage
 ### Load an ad
-To load an ad you need to :
-- Create an instance of BLIINK with : the context, network ID, site ID, a boolean if you authorize the location or not the location authorization and the timeout for the requests. If it's nil the basic timeout is 5 seconds
+#### Initialize the Sdk
+In your file ```AppDelegate.swift```
+- You need to create an instance of BLIINK with : the network ID, site ID, a boolean if you authorize or not the location and the timeout for the requests. If the timeout is nil the default value is 5 seconds
 ```
 BLIINK.getInstance().initialize(network_id: [YOUR_NETWORK_ID], site_id: [YOUR_SITE_ID], authorizeLocation: true, timeout: nil)
 ```
 
-- An array of NSURLQueryItem with your options:
+#### Add your parameters
+In your ```ViewController.swift``` file
+- Create an array with your options:
 ````
-let queryItems = [
-             NSURLQueryItem(name: "pageTitle", value: [YOUR_TITLE]),
-             NSURLQueryItem(name: "pageDescription", value: [YOUR_DESCRIPTION]),
-             NSURLQueryItem(name: "imageUrl", value: [YOUR_IMAGE_URL])
-             ]
+let options = [
+            "pageTitle" : "Les meilleures citations de ...",
+            "pageDescription" : "Vainqueur au match aller en Italie (0-3)...",
+            "keywords" : "bliink, rafael va, has_diapo",
+            "imageUrl" : "http://sf1.viepratique.fr/wp-content/uploads/sites/4/2018/03/c1-1.png",
+            "pageUrl" : "http://www.viepratique.fr/psycho/citations-de-caroline-receveur-606352.html",
+            "keywords" : "bliink, raphael varane, has_diapo",
+            "tags" : "bliink, raphael varane, has_diapo"
+        ]
 ````
 
-- An instance of BLIINKInImageView linked with a simple UIView in your storyboard
+
+#### Create the view
+- Create an instance of BLIINKInImageView linked with a simple UIView in your storyboard
 ```
 @IBOutlet var inImageView: BLIINKInImageView!
 ```
 
-- And a call to the function loadAd with the tag ID, your array of options and an optional handler with your class inheriting from ```AdResponseHandlerProtocol```
+#### Call to load the ad
+- Call the function loadAd with the tag ID, your array of options and an optional handler with your class inheriting from ```AdResponseHandlerProtocol```
 ```
 //Handler
 func adLoadingCompleted(adContent: BLIINKAdContent) {
@@ -41,5 +51,5 @@ func adLoadingCompleted(adContent: BLIINKAdContent) {
     }
         
 //Call to load the new ad
-inImageView.loadAd(tagId: [YOUR_TAG_ID], options: queryItems, adResponseHandler: self)
+inImageView.loadAd(tagId: [YOUR_TAG_ID], options: options, adResponseHandler: self)
 ```
