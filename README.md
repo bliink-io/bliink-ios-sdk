@@ -6,10 +6,12 @@
 ```
 pod 'BliinkSdk', '[LATEST_VERSION]'
 ```
-
-## Usage
-### Load an ad
-#### Initialize the Sdk
+### Add the import
+```
+import BliinkSdk
+```
+## Load an ad
+### Initialize the Sdk
 In your file ```AppDelegate.swift```
 - You need to create an instance of BLIINK with : the network ID, site ID, a boolean if you authorize or not the location and the timeout for the requests. If the timeout is nil the default value is 5 seconds
 ```
@@ -21,37 +23,21 @@ site_id : It's your site id
 authorizeLocation : This parameter is optional and false by default. It's a boolean to authorize or not the location
 timeout : This parameter is optional and set to 5 seconds by default. It's the timeout that will be used to request the ad
 ```
-
-#### Add your parameters
-In your ```ViewController.swift``` file
-- Create an array with your options:
-````
-let options = [
-            "pageTitle" : "Coupe du monde 2018",
-            "pageDescription" : "Le bus des Bleus sur les Champs-Elysees",
-            "keywords" : "bliink, foot, coupe du monde",
-            "imageUrl" : "https://img.20mn.fr/ZUC1UEnBSu-PK5nehAfXsA/960x614_bus-bleus-champs-elysees",
-            "pageUrl" : "https://www.20minutes.fr/sport/2313599-20180726-coupe-monde-2018-alexandre-benalla-donne-ordre-accelerer-rythme-bus",
-            "tags" : "bliink, foot, coupe du monde"
-        ]
-````
-````
-pageTitle : Title of the page
-pageDescription : Description of the page
-keywords : Keywords for the targeting
-imageUrl : Url of the image
-pageUrl : Url of the page
-tags : Tags for the targeting
-````
-
-#### Create the view
-- Create an instance of BLIINKInImageView linked with a simple UIView in your storyboard
+### Create the BLIINKInImageView in your ```soryboard``` or ```.xib``` file
+- Create an instance of BLIINKInImageView in your storyboard or in a .xib file. It need to be encapsulated in the same view as the image like :
+```
+- contentView
+  - image
+  - BLIINKInImageView
+ ```
+Link the BLIINKInImageView in your controller
 ```
 @IBOutlet var inImageView: BLIINKInImageView!
 ```
 
-#### Call to load the ad
-- Call the function loadAd with the tag ID, your array of options and an optional handler. For the handler your class can inherit from ```AdResponseHandlerProtocol```
+### Call to load the ad
+In your ```ViewController.swift``` file
+- Call the function loadAd with the tag ID, an array of options and an optional handler. For the handler your class can inherit from ```AdResponseHandlerProtocol```
 ```
 //Handler
 func adLoadingCompleted(adContent: BLIINKAdContent) {
@@ -61,7 +47,24 @@ func adLoadingCompleted(adContent: BLIINKAdContent) {
 func adLoadingFailed() {
     print("adLoadingFailed")
 }
-        
+
+//Array with your parameters
+let options = [
+            "pageTitle" : "Coupe du monde 2018",
+            "pageDescription" : "Le bus des Bleus sur les Champs-Elysees",
+            "keywords" : "bliink, foot, coupe du monde",
+            "imageUrl" : "https://bliink.io/img/pictures/pic--tablet.png",
+            "pageUrl" : "https://bliink.io/technology"
+        ]
+
 //Call to load the new ad
 inImageView.loadAd(tagId: [YOUR_TAG_ID], options: options, adResponseHandler: self)
 ```
+The ```options``` Array is used to contextualize your article, it contains :
+````
+pageTitle : String : Title of the page
+pageDescription : String : Description of the page
+keywords : String : Keywords for the targeting
+imageUrl : String : Url of the image
+pageUrl : String : Url of the page
+tags : String : Tags for the targeting
