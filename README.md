@@ -51,16 +51,16 @@ tags : Tags for the targeting
 ```
 
 #### Call to load the ad
-- Call the function loadAd with the tag ID, your array of options and an optional handler with your class inheriting from ```AdResponseHandlerProtocol```
+- Call the function loadAd with the tag ID, your array of options and an optional handler. For the handler your class can inherit from ```AdResponseHandlerProtocol```
 ```
 //Handler
 func adLoadingCompleted(adContent: BLIINKAdContent) {
-        print("adLoadingCompleted")
-    }
+    print("adLoadingCompleted")
+}
     
-    func adLoadingFailed() {
-        print("adLoadingFailed")
-    }
+func adLoadingFailed() {
+    print("adLoadingFailed")
+}
         
 //Call to load the new ad
 inImageView.loadAd(tagId: [YOUR_TAG_ID], options: options, adResponseHandler: self)
