@@ -11,23 +11,23 @@ import BliinkSdk
 
 class InImageScrollController: UIViewController, AdResponseHandlerProtocol {
     
-
     @IBOutlet var inImageView: BLIINKInImageView!
-    //@IBOutlet var inImageView: BLIINKInImageView!
     @IBOutlet var imageView: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let queryItems = [
-            NSURLQueryItem(name: Constants.OPTIONS.MODE_TEST_KEY.rawValue, value: Constants.OPTIONS.TRUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.PAGE_TITLE_KEY.rawValue, value: Constants.OPTIONS.PAGE_TITLE_VALUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue, value: Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.IMAGE_URL_KEY.rawValue, value: Constants.OPTIONS.IMAGE_URL_VALUE.rawValue)
+        let options = [
+            // Constants.OPTIONS.MODE_TEST_KEY.rawValue : Constants.OPTIONS.TRUE.rawValue,
+            Constants.OPTIONS.PAGE_TITLE_KEY.rawValue : Constants.OPTIONS.PAGE_TITLE_VALUE.rawValue,
+            Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue : Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue,
+            Constants.OPTIONS.IMAGE_URL_KEY.rawValue : Constants.OPTIONS.IMAGE_URL_VALUE.rawValue,
+            Constants.OPTIONS.PAGE_URL_KEY.rawValue : Constants.OPTIONS.PAGE_URL_VALUE.rawValue,
+            Constants.OPTIONS.KEYWORDS_KEY.rawValue : Constants.OPTIONS.KEYWORDS_VALUE.rawValue
         ]
         
         inImageView.initialize()
-        inImageView.loadAd(tagId: Constants.TAG_ID, options: queryItems, adResponseHandler: self)
+        inImageView.loadAd(tagId: Constants.TAG_ID, options: options, adResponseHandler: self)
     }
     
     func adLoadingCompleted(adContent: BLIINKAdContent) {

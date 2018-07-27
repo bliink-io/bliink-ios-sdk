@@ -15,9 +15,13 @@ public class Constants {
         case PAGE_TITLE_KEY = "pageTitle"
         case PAGE_DESCRIPTION_KEY = "pageDescription"
         case IMAGE_URL_KEY = "imageUrl"
-        case PAGE_TITLE_VALUE = "title page"
-        case PAGE_DESCRIPTION_VALUE = "desc page"
-        case IMAGE_URL_VALUE = "image link"
+        case PAGE_URL_KEY = "pageUrl"
+        case KEYWORDS_KEY = "keywords"
+        case PAGE_TITLE_VALUE = "BLIINK - Technology"
+        case PAGE_DESCRIPTION_VALUE = "Open up a whole new range of possibilities through our in-image technology"
+        case IMAGE_URL_VALUE = "https://bliink.io/img/bg/bg--technology.jpg"
         case TRUE = "true"
+        case PAGE_URL_VALUE = "https://bliink.io/technology"
+        case KEYWORDS_VALUE = "bliink, technology"
     }
 }

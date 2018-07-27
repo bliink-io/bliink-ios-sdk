@@ -1,8 +1,8 @@
-# BLIINK IOS SDK
+# BLIINK iOS SDK
 
 ## Installation
 ### CocoaPods
-- Add the Sdk to your ```Podfile```
+Add the Sdk to your ```Podfile```
 ```
 pod 'BliinkSdk', '[LATEST_VERSION]'
 ```
@@ -13,7 +13,7 @@ import BliinkSdk
 ## Load an ad
 ### Initialize the Sdk
 In your file ```AppDelegate.swift```
-- You need to create an instance of BLIINK with : the network ID, site ID, a boolean if you authorize or not the location and the timeout for the requests. If the timeout is nil the default value is 5 seconds
+You need to create an instance of BLIINK with : the network ID, site ID, a boolean if you authorize or not the location and the timeout for the requests. If the timeout is nil the default value is 5 seconds
 ```
 BLIINK.getInstance().initialize(network_id: [YOUR_NETWORK_ID], site_id: [YOUR_SITE_ID], authorizeLocation: true, timeout: 3)
 ```
@@ -23,8 +23,8 @@ site_id : Integer : It's your site id
 authorizeLocation : Boolean : This parameter is optional and false by default. It's a boolean to authorize or not the location
 timeout : Integer : This parameter is optional and set to 5 seconds by default. It's the timeout that will be used to request the ad
 ```
-### Create the BLIINKInImageView in your ```soryboard``` or ```.xib``` file
-- Create the BLIINKInImageView in your storyboard or in a .xib file. It need to be encapsulated in the same view as the image like :
+### Create the BLIINKInImageView in your ```storyboard``` or ```.xib``` file
+Create the BLIINKInImageView in your storyboard or in a .xib file. It need to be encapsulated in the same view as the image like :
 ```
 - contentView
   - image
@@ -37,7 +37,7 @@ Link the BLIINKInImageView in your controller
 
 ### Call to load the ad
 In your ```ViewController.swift``` file
-- Call the function loadAd with the tag ID, an array of options and an optional handler. For the handler your class can inherit from ```AdResponseHandlerProtocol```
+Call the function loadAd with the tag ID, an array of options and an optional handler. For the handler your class can inherit from ```AdResponseHandlerProtocol```
 ```
 //Handler
 func adLoadingCompleted(adContent: BLIINKAdContent) {
@@ -50,9 +50,9 @@ func adLoadingFailed() {
 
 //Array with your parameters
 let options = [
-            "pageTitle" : "Coupe du monde 2018",
-            "pageDescription" : "Le bus des Bleus sur les Champs-Elysees",
-            "keywords" : "bliink, foot, coupe du monde",
+            "pageTitle" : "BLIINK - Technology",
+            "pageDescription" : "Open up a whole new range of possibilities through our in-image technology",
+            "keywords" : "bliink, technology",
             "imageUrl" : "https://bliink.io/img/pictures/pic--tablet.png",
             "pageUrl" : "https://bliink.io/technology"
         ]

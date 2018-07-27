@@ -19,11 +19,13 @@ class InImageSliderController: UIViewController, AdResponseHandlerProtocol {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let queryItems = [
-            NSURLQueryItem(name: Constants.OPTIONS.MODE_TEST_KEY.rawValue, value: Constants.OPTIONS.TRUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.PAGE_TITLE_KEY.rawValue, value: Constants.OPTIONS.PAGE_TITLE_VALUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue, value: Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.IMAGE_URL_KEY.rawValue, value: Constants.OPTIONS.IMAGE_URL_VALUE.rawValue)
+        let options = [
+            // Constants.OPTIONS.MODE_TEST_KEY.rawValue : Constants.OPTIONS.TRUE.rawValue,
+            Constants.OPTIONS.PAGE_TITLE_KEY.rawValue : Constants.OPTIONS.PAGE_TITLE_VALUE.rawValue,
+            Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue : Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue,
+            Constants.OPTIONS.IMAGE_URL_KEY.rawValue : Constants.OPTIONS.IMAGE_URL_VALUE.rawValue,
+            Constants.OPTIONS.PAGE_URL_KEY.rawValue : Constants.OPTIONS.PAGE_URL_VALUE.rawValue,
+            Constants.OPTIONS.KEYWORDS_KEY.rawValue : Constants.OPTIONS.KEYWORDS_VALUE.rawValue
         ]
         
         imageArray = [#imageLiteral(resourceName: "img1"), #imageLiteral(resourceName: "Image"), #imageLiteral(resourceName: "img4"), #imageLiteral(resourceName: "img8"), #imageLiteral(resourceName: "img9"), #imageLiteral(resourceName: "img10")]
@@ -43,16 +45,16 @@ class InImageSliderController: UIViewController, AdResponseHandlerProtocol {
             let ratio: CGFloat = CGFloat(imageView.frame.size.width / imageView.frame.size.height)
             let imgWidth = self.scrollView.frame.width
             let imgHeight = imgWidth / ratio
-            
             let xPosition = self.view.frame.width * CGFloat(i)
+            
             imageView.frame = CGRect(x: xPosition, y: 0, width: imgWidth, height: imgHeight)
             
             scrollView.contentSize.width = scrollView.frame.width * CGFloat(i + 1)
-            
             scrollView.addSubview(imageView)
         }
+
         inImageView.initialize()
-        inImageView.loadAd(tagId: Constants.TAG_ID, options: queryItems, adResponseHandler: self)
+        inImageView.loadAd(tagId: Constants.TAG_ID, options: options, adResponseHandler: self)
     }
     
     func adLoadingCompleted(adContent: BLIINKAdContent) {

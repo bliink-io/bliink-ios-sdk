@@ -19,33 +19,38 @@ class InImageCollapseController: UIViewController, UIScrollViewDelegate, AdRespo
         super.viewDidLoad()
 
         scrollView.delegate = self
-        let queryItems = [
-            NSURLQueryItem(name: Constants.OPTIONS.MODE_TEST_KEY.rawValue, value: Constants.OPTIONS.TRUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.PAGE_TITLE_KEY.rawValue, value: Constants.OPTIONS.PAGE_TITLE_VALUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue, value: Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue),
-            NSURLQueryItem(name: Constants.OPTIONS.IMAGE_URL_KEY.rawValue, value: Constants.OPTIONS.IMAGE_URL_VALUE.rawValue)
+        
+        let options = [
+            // Constants.OPTIONS.MODE_TEST_KEY.rawValue : Constants.OPTIONS.TRUE.rawValue,
+            Constants.OPTIONS.PAGE_TITLE_KEY.rawValue : Constants.OPTIONS.PAGE_TITLE_VALUE.rawValue,
+            Constants.OPTIONS.PAGE_DESCRIPTION_KEY.rawValue : Constants.OPTIONS.PAGE_DESCRIPTION_VALUE.rawValue,
+            Constants.OPTIONS.IMAGE_URL_KEY.rawValue : Constants.OPTIONS.IMAGE_URL_VALUE.rawValue,
+            Constants.OPTIONS.PAGE_URL_KEY.rawValue : Constants.OPTIONS.PAGE_URL_VALUE.rawValue,
+            Constants.OPTIONS.KEYWORDS_KEY.rawValue : Constants.OPTIONS.KEYWORDS_VALUE.rawValue
         ]
         
         inImageView.initialize()
-        inImageView.loadAd(tagId: Constants.TAG_ID, options: queryItems, adResponseHandler: self)
+        inImageView.loadAd(tagId: Constants.TAG_ID, options: options, adResponseHandler: self)
     }
     
     func testIsVisible(view: UIView) -> Bool {
         func testIsVisible(view: UIView, inView: UIView?) -> Bool {
             guard let inView = inView else { return true }
             let viewFrame = inView.convert(view.bounds, from: view)
+
             if viewFrame.intersects(inView.bounds) {
                 return testIsVisible(view: view, inView: inView.superview)
             }
+
             return false
         }
+
         return testIsVisible(view: view, inView: view.superview)
     }
     
     public func scrollViewDidScroll(_ scrollView: UIScrollView) {
         image.frame.origin.y =  (scrollView.contentOffset.y + 64) / 2
         inImageView.frame = image.frame
-        //print("View is visible : \(testIsVisible(view: inImageView))")
     }
     
     func adLoadingCompleted(adContent: BLIINKAdContent) {
