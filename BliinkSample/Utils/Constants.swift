@@ -8,7 +8,9 @@
 
 public class Constants {
     
-    public static let TAG_ID: Int = 20
+    public static let NETWORK_ID: Int = 25
+    public static let SITE_ID: Int = 103
+    public static let TAG_ID: Int = 102
     
     enum OPTIONS: String {
         case MODE_TEST_KEY = "test"
