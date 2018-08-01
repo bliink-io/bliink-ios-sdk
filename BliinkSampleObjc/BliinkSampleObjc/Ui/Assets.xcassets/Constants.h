@@ -1,0 +1,33 @@
+//
+//  Constants.h
+//  BliinkSampleObjc
+//
+//  Created by DAMS Saber on 01/08/2018.
+//  Copyright © 2018 DAMS Saber. All rights reserved.
+//
+
+#ifndef Constants_h
+#define Constants_h
+
+
+#endif /* Constants_h */
+FOUNDATION_EXPORT int const TAG_ID;
+FOUNDATION_EXPORT int const SITE_ID;
+FOUNDATION_EXPORT int const NETWORK_ID;
+FOUNDATION_EXPORT int const TIMEOUT;
+
+
+FOUNDATION_EXPORT NSString *const MODE_TEST_KEY;
+FOUNDATION_EXPORT NSString *const PAGE_TITLE_KEY;
+FOUNDATION_EXPORT NSString *const PAGE_DESCRIPTION_KEY;
+FOUNDATION_EXPORT NSString *const IMAGE_URL_KEY;
+FOUNDATION_EXPORT NSString *const PAGE_URL_KEY;
+FOUNDATION_EXPORT NSString *const KEYWORDS_KEY;
+
+FOUNDATION_EXPORT NSString *const PAGE_TITLE_VALUE;
+FOUNDATION_EXPORT NSString *const PAGE_DESCRIPTION_VALUE;
+FOUNDATION_EXPORT NSString *const IMAGE_URL_VALUE;
+FOUNDATION_EXPORT NSString *const PAGE_URL_VALUE;
+FOUNDATION_EXPORT NSString *const KEYWORDS_VALUE;
+
+
