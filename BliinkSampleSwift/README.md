@@ -1,19 +1,19 @@
 # BLIINK iOS SDK
 
-## Sample Quick Start
+## Swift Sample Quick Start
 
 ### Download our sample app
 
 Download ou sample app from our github repository
 ```
-git clone https://gitlab.bliink.io/mobile/ios-sdk.git
+git clone https://github.com/bliink-io/bliink-ios-sdk.git
 ```
 
 ### Install dependencies
 
 Install **BLIINK SDK** from the **Podfile**
 ```
-cd ios-sdk
+cd bliink-ios-sdk/BliinkSampleSwift
 pod install
 ```
 
