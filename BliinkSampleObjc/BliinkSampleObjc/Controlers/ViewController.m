@@ -4,7 +4,6 @@
 //
 //  Created by DAMS Saber on 31/07/2018.
 //  Copyright © 2018 DAMS Saber. All rights reserved.
-//
 
 #import "ViewController.h"
 
@@ -25,8 +24,16 @@
                                PAGE_TITLE_KEY : PAGE_TITLE_VALUE,
                                MODE_TEST_KEY : @"true",
                              };
+    CGRect screen = [[UIScreen mainScreen] bounds];
+    CGFloat width = CGRectGetWidth(screen);
+    CGRect aRect = CGRectMake(0, 0, width, 375);
 
+    BLIINKInImageView *_inImageView = [[BLIINKInImageView alloc] initWithFrame:aRect];
+    
+    [_adView addSubview:_inImageView];
+    
     [_inImageView loadAdWithTagId: TAG_ID options:options adResponseHandler:self];
+
 }
 
 - (void)didReceiveMemoryWarning {

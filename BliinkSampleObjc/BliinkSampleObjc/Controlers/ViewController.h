@@ -12,9 +12,9 @@
 
 @interface ViewController : UIViewController<AdResponseHandlerProtocol>
 
+@property (weak, nonatomic) IBOutlet UIView *adView;
 
-
-@property (weak, nonatomic) IBOutlet BLIINKInImageView *inImageView;
+//@property (weak, nonatomic) IBOutlet BLIINKInImageView *inImageView;
 
 @end
 
