@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,7 +14,6 @@
 		3A9F520F2088E83C00A0CA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F520D2088E83C00A0CA48 /* Main.storyboard */; };
 		3A9F52142088E83D00A0CA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F52122088E83D00A0CA48 /* LaunchScreen.storyboard */; };
 		3A9F521F2088E83D00A0CA48 /* BliinkSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F521E2088E83D00A0CA48 /* BliinkSampleTests.swift */; };
-		3A9F522A2088E83D00A0CA48 /* BliinkSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A9F52292088E83D00A0CA48 /* BliinkSampleUITests.swift */; };
 		803BA43420D3C493007D4FDC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803BA43320D3C493007D4FDC /* Constants.swift */; };
 		803BA43620D3E73C007D4FDC /* InImageScrollController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803BA43520D3E73C007D4FDC /* InImageScrollController.swift */; };
 		8059352A20E3D24700E17F4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A9F52102088E83D00A0CA48 /* Assets.xcassets */; };
@@ -24,13 +23,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		3A9F521B2088E83D00A0CA48 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 3A9F51FE2088E83B00A0CA48 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 3A9F52052088E83B00A0CA48;
-			remoteInfo = BliinkSample;
-		};
-		3A9F52262088E83D00A0CA48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3A9F51FE2088E83B00A0CA48 /* Project object */;
 			proxyType = 1;
@@ -66,7 +58,6 @@
 		3A9F521A2088E83D00A0CA48 /* BliinkSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BliinkSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9F521E2088E83D00A0CA48 /* BliinkSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BliinkSampleTests.swift; sourceTree = "<group>"; };
 		3A9F52202088E83D00A0CA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3A9F52252088E83D00A0CA48 /* BliinkSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BliinkSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A9F52292088E83D00A0CA48 /* BliinkSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BliinkSampleUITests.swift; sourceTree = "<group>"; };
 		3A9F522B2088E83D00A0CA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		803BA43320D3C493007D4FDC /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -85,13 +76,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3A9F52172088E83D00A0CA48 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A9F52222088E83D00A0CA48 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -117,7 +101,6 @@
 			children = (
 				3A9F52062088E83B00A0CA48 /* BliinkSample.app */,
 				3A9F521A2088E83D00A0CA48 /* BliinkSampleTests.xctest */,
-				3A9F52252088E83D00A0CA48 /* BliinkSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -238,24 +221,6 @@
 			productReference = 3A9F521A2088E83D00A0CA48 /* BliinkSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3A9F52242088E83D00A0CA48 /* BliinkSampleUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3A9F52342088E83D00A0CA48 /* Build configuration list for PBXNativeTarget "BliinkSampleUITests" */;
-			buildPhases = (
-				3A9F52212088E83D00A0CA48 /* Sources */,
-				3A9F52222088E83D00A0CA48 /* Frameworks */,
-				3A9F52232088E83D00A0CA48 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				3A9F52272088E83D00A0CA48 /* PBXTargetDependency */,
-			);
-			name = BliinkSampleUITests;
-			productName = BliinkSampleUITests;
-			productReference = 3A9F52252088E83D00A0CA48 /* BliinkSampleUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -263,7 +228,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1100;
 				ORGANIZATIONNAME = "DAMS Saber";
 				TargetAttributes = {
 					3A9F52052088E83B00A0CA48 = {
@@ -271,18 +236,13 @@
 					};
 					3A9F52192088E83D00A0CA48 = {
 						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1010;
-						TestTargetID = 3A9F52052088E83B00A0CA48;
-					};
-					3A9F52242088E83D00A0CA48 = {
-						CreatedOnToolsVersion = 9.3;
-						LastSwiftMigration = 1010;
+						LastSwiftMigration = 1100;
 						TestTargetID = 3A9F52052088E83B00A0CA48;
 					};
 				};
 			};
 			buildConfigurationList = 3A9F52012088E83B00A0CA48 /* Build configuration list for PBXProject "BliinkSample" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -296,7 +256,6 @@
 			targets = (
 				3A9F52052088E83B00A0CA48 /* BliinkSample */,
 				3A9F52192088E83D00A0CA48 /* BliinkSampleTests */,
-				3A9F52242088E83D00A0CA48 /* BliinkSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -313,13 +272,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		3A9F52182088E83D00A0CA48 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3A9F52232088E83D00A0CA48 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -351,14 +303,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3A9F52212088E83D00A0CA48 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3A9F522A2088E83D00A0CA48 /* BliinkSampleUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -366,11 +310,6 @@
 			isa = PBXTargetDependency;
 			target = 3A9F52052088E83B00A0CA48 /* BliinkSample */;
 			targetProxy = 3A9F521B2088E83D00A0CA48 /* PBXContainerItemProxy */;
-		};
-		3A9F52272088E83D00A0CA48 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 3A9F52052088E83B00A0CA48 /* BliinkSample */;
-			targetProxy = 3A9F52262088E83D00A0CA48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -445,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -476,7 +415,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.bliink.sdk.BliinkSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				"SYSTEM_FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -488,6 +427,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAFM84F6DU;
 				INFOPLIST_FILE = BliinkSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -496,28 +436,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bliink.Sample.BliinkSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BliinkSample.app/BliinkSample";
-			};
-			name = Test;
-		};
-		3A68D76923312EB900EBA283 /* Test */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BliinkSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bliink.Sample.BliinkSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BliinkSample;
 			};
 			name = Test;
 		};
@@ -572,14 +493,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VALID_ARCHS = "$(ARCHS_STANDARD)";
-				"VALID_ARCHS[sdk=*]" = "x86_64 i368";
+				VALID_ARCHS = "arm64 arm64e armv7 armv7s ";
+				"VALID_ARCHS[sdk=iphonesimulator*]" = "x86_64 i368";
 			};
 			name = Debug;
 		};
@@ -628,7 +549,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -659,7 +580,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.bliink.sdk.BliinkSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				"SYSTEM_FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -687,7 +608,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.bliink.sdk.BliinkSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -698,6 +619,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAFM84F6DU;
 				INFOPLIST_FILE = BliinkSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -706,7 +628,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bliink.Sample.BliinkSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BliinkSample.app/BliinkSample";
 			};
@@ -718,6 +640,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAFM84F6DU;
 				INFOPLIST_FILE = BliinkSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -726,47 +649,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bliink.Sample.BliinkSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BliinkSample.app/BliinkSample";
-			};
-			name = Release;
-		};
-		3A9F52352088E83D00A0CA48 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BliinkSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bliink.Sample.BliinkSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BliinkSample;
-			};
-			name = Debug;
-		};
-		3A9F52362088E83D00A0CA48 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BliinkSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bliink.Sample.BliinkSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BliinkSample;
 			};
 			name = Release;
 		};
@@ -821,7 +706,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
@@ -852,9 +737,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.bliink.sdk.BliinkSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				"VALID_ARCHS[sdk=*]" = "";
 			};
 			name = Staging;
 		};
@@ -864,6 +748,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DAFM84F6DU;
 				INFOPLIST_FILE = BliinkSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -872,28 +757,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.bliink.Sample.BliinkSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BliinkSample.app/BliinkSample";
-			};
-			name = Staging;
-		};
-		3AC4D695208E1FCB009297AE /* Staging */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = BliinkSampleUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.bliink.Sample.BliinkSampleUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = BliinkSample;
 			};
 			name = Staging;
 		};
@@ -929,17 +795,6 @@
 				3A68D76823312EB900EBA283 /* Test */,
 				3AC4D694208E1FCB009297AE /* Staging */,
 				3A9F52332088E83D00A0CA48 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3A9F52342088E83D00A0CA48 /* Build configuration list for PBXNativeTarget "BliinkSampleUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3A9F52352088E83D00A0CA48 /* Debug */,
-				3A68D76923312EB900EBA283 /* Test */,
-				3AC4D695208E1FCB009297AE /* Staging */,
-				3A9F52362088E83D00A0CA48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
