@@ -43,12 +43,10 @@ import BliinkSdk
 ### Initialize the Sdk
 In your file **AppDelegate.swift** you need to create an instance of **BLIINK SDK**:
 ```
-BLIINK.getInstance().initialize(network_id: [YOUR_NETWORK_ID], site_id: [YOUR_SITE_ID], authorizeLocation: true, timeout: 3)
+BLIINK.getInstance().initialize(authorizeLocation: true, timeout: 3)
 ```
 
 **Parameters:**
-- **network_id * _(Integer)_:** It's your network id
-- **site_id * _(Integer)_:** It's your site id
 - **authorizeLocation _(Boolean)_:** This parameter is optional and false by default. It's a boolean to authorize or not the location
 - **timeout _(Integer)_:** This parameter is optional and set to 5 seconds by default. It's the timeout that will be used to request the ad
 
@@ -73,7 +71,7 @@ In your **ViewController.swift** file call the **loadAd** function with the tag 
 
 **Handlers**
 ```
-func adLoadingCompleted(adContent: BLIINKAdContent) {
+func adLoadin/Users/dams/Documents/work/bliink/mobile/bliink-ios-sdk/README.mdgCompleted(adContent: Ad) {
     print("adLoadingCompleted")
 }
     
