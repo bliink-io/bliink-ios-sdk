@@ -53,7 +53,7 @@ class InImageCollapseController: UIViewController, UIScrollViewDelegate, AdRespo
         inImageView.frame = image.frame
     }
     
-    func adLoadingCompleted(adContent: BLIINKAdContent) {
+    func adLoadingCompleted(adContent: Ad) {
         print("adLoadingCompleted")
     }
     

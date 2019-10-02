@@ -41,7 +41,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)adLoadingCompletedWithAdContent:(BLIINKAdContent * _Nonnull)adContent {
+- (void)adLoadingCompletedWithAdContent:(Ad * _Nonnull)adContent {
     NSLog(@"adLoadingCompletedWithAdContent");
 }
 

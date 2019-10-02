@@ -30,7 +30,7 @@ class InImageScrollController: UIViewController, AdResponseHandlerProtocol {
         inImageView.loadAd(tagId: Constants.TAG_ID, options: options, adResponseHandler: self)
     }
     
-    func adLoadingCompleted(adContent: BLIINKAdContent) {
+    func adLoadingCompleted(adContent: Ad) {
         print("adLoadingCompleted")
     }
     

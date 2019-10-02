@@ -19,8 +19,8 @@
     // Override point for customization after application launch.
     
     BLIINK *sharedManager = [BLIINK getInstance];
-    [sharedManager initializeWithNetwork_id: NETWORK_ID site_id: SITE_ID authorizeLocation: true timeout: TIMEOUT];
-    
+    [sharedManager initializeWithAuthorizeLocation: true timeout: TIMEOUT];
+
 
     return YES;
 }

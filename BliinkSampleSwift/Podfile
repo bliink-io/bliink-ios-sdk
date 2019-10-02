@@ -7,7 +7,7 @@ target 'BliinkSample' do
 
   # Pods for BliinkSample
 
-  pod 'BliinkSdk'
+  pod 'BliinkSdk', '2.0.0'
 
   target 'BliinkSampleTests' do
     inherit! :search_paths
