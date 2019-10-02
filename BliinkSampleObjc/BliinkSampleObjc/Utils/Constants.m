@@ -8,14 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-
-
-
 int const TAG_ID = 25;
-int const SITE_ID = 103;
-int const NETWORK_ID = 102;
 int const TIMEOUT = 5;
-
 
 NSString *const MODE_TEST_KEY = @"test";
 NSString *const PAGE_TITLE_KEY = @"pageTitle";

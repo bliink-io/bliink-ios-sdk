@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36A4A6E793CE9A54A34A7D18 /* Pods_BliinkSampleObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5B27342AEAC965EB69FDAE4 /* Pods_BliinkSampleObjc.framework */; };
 		3A2CF4F82110B59800CAA31E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CF4F72110B59800CAA31E /* AppDelegate.m */; };
 		3A2CF4FB2110B59800CAA31E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CF4FA2110B59800CAA31E /* ViewController.m */; };
 		3A2CF4FE2110B59800CAA31E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A2CF4FC2110B59800CAA31E /* Main.storyboard */; };
@@ -16,9 +17,8 @@
 		3A2CF5102110B59900CAA31E /* BliinkSampleObjcTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CF50F2110B59900CAA31E /* BliinkSampleObjcTests.m */; };
 		3A2CF51B2110B59900CAA31E /* BliinkSampleObjcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CF51A2110B59900CAA31E /* BliinkSampleObjcUITests.m */; };
 		3A2CF5302111B6A300CAA31E /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A2CF52F2111B6A300CAA31E /* Constants.m */; };
-		6FE2447748DF97590C7E0DFA /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D06E13EECECA0B89ADB2B05 /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework */; };
-		BBBCCA3C2CC90BC3E1B11A8A /* Pods_BliinkSampleObjcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1863660D539C16AB1A78FB3 /* Pods_BliinkSampleObjcTests.framework */; };
-		BCDE8BEFE29C3021EE2C2D95 /* Pods_BliinkSampleObjc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB296F9DDAE88A04286ADD9B /* Pods_BliinkSampleObjc.framework */; };
+		6A987E8A82938203A4C246FD /* Pods_BliinkSampleObjcTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1C94E7462701C9678D83DB4 /* Pods_BliinkSampleObjcTests.framework */; };
+		DEE6073B55FF95751BBBA6C3 /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42837EFA6AA8CEBB4A8E56E3 /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		082B9DBC4DBD37DDD441E16B /* Pods-BliinkSampleObjcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjcUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BliinkSampleObjcUITests/Pods-BliinkSampleObjcUITests.release.xcconfig"; sourceTree = "<group>"; };
-		183A2749FDC63C610AE5C796 /* Pods-BliinkSampleObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjc.release.xcconfig"; path = "Pods/Target Support Files/Pods-BliinkSampleObjc/Pods-BliinkSampleObjc.release.xcconfig"; sourceTree = "<group>"; };
 		3A2CF4F32110B59800CAA31E /* BliinkSampleObjc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BliinkSampleObjc.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A2CF4F62110B59800CAA31E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3A2CF4F72110B59800CAA31E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -59,15 +57,15 @@
 		3A2CF51C2110B59900CAA31E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A2CF52F2111B6A300CAA31E /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
 		3AD939832111C10A003E4511 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		67E07037B889F23A263A4A7A /* Pods-BliinkSampleObjcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjcTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BliinkSampleObjcTests/Pods-BliinkSampleObjcTests.debug.xcconfig"; sourceTree = "<group>"; };
-		7D06E13EECECA0B89ADB2B05 /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D1DDD0E7C64C9DDDCE0A385 /* Pods-BliinkSampleObjcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjcTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BliinkSampleObjcTests/Pods-BliinkSampleObjcTests.release.xcconfig"; sourceTree = "<group>"; };
-		D1863660D539C16AB1A78FB3 /* Pods_BliinkSampleObjcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BliinkSampleObjcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA36E7FE2C1806CC920831D3 /* Pods-BliinkSampleObjcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjcUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BliinkSampleObjcUITests/Pods-BliinkSampleObjcUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		DE148C0DE2360E98A86BCCB5 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB296F9DDAE88A04286ADD9B /* Pods_BliinkSampleObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BliinkSampleObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F6DF53B349B996FA2268BAB4 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig"; sourceTree = "<group>"; };
-		FFB59DE89901B267FEF74997 /* Pods-BliinkSampleObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BliinkSampleObjc/Pods-BliinkSampleObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		42837EFA6AA8CEBB4A8E56E3 /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		51EF677E57738347A6A6A074 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig"; path = "Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		64842A81F7639792F41F962C /* Pods-BliinkSampleObjc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjc.release.xcconfig"; path = "Target Support Files/Pods-BliinkSampleObjc/Pods-BliinkSampleObjc.release.xcconfig"; sourceTree = "<group>"; };
+		90CC0A5198058723C9DD1700 /* Pods-BliinkSampleObjcTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjcTests.debug.xcconfig"; path = "Target Support Files/Pods-BliinkSampleObjcTests/Pods-BliinkSampleObjcTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9954DE2DDC79F69E9CB51568 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig"; path = "Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B5B27342AEAC965EB69FDAE4 /* Pods_BliinkSampleObjc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BliinkSampleObjc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6EC84D1EA78E2857416B983 /* Pods-BliinkSampleObjc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjc.debug.xcconfig"; path = "Target Support Files/Pods-BliinkSampleObjc/Pods-BliinkSampleObjc.debug.xcconfig"; sourceTree = "<group>"; };
+		D1C94E7462701C9678D83DB4 /* Pods_BliinkSampleObjcTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BliinkSampleObjcTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0B4ABE77730DAFFC6DFB76B /* Pods-BliinkSampleObjcTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BliinkSampleObjcTests.release.xcconfig"; path = "Target Support Files/Pods-BliinkSampleObjcTests/Pods-BliinkSampleObjcTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCDE8BEFE29C3021EE2C2D95 /* Pods_BliinkSampleObjc.framework in Frameworks */,
+				36A4A6E793CE9A54A34A7D18 /* Pods_BliinkSampleObjc.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBBCCA3C2CC90BC3E1B11A8A /* Pods_BliinkSampleObjcTests.framework in Frameworks */,
+				6A987E8A82938203A4C246FD /* Pods_BliinkSampleObjcTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,26 +89,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6FE2447748DF97590C7E0DFA /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework in Frameworks */,
+				DEE6073B55FF95751BBBA6C3 /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		108654334A710CBC1F51A620 /* Pods */ = {
+		0D5E6768C754BEED8506F160 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				FFB59DE89901B267FEF74997 /* Pods-BliinkSampleObjc.debug.xcconfig */,
-				183A2749FDC63C610AE5C796 /* Pods-BliinkSampleObjc.release.xcconfig */,
-				67E07037B889F23A263A4A7A /* Pods-BliinkSampleObjcTests.debug.xcconfig */,
-				9D1DDD0E7C64C9DDDCE0A385 /* Pods-BliinkSampleObjcTests.release.xcconfig */,
-				DA36E7FE2C1806CC920831D3 /* Pods-BliinkSampleObjcUITests.debug.xcconfig */,
-				082B9DBC4DBD37DDD441E16B /* Pods-BliinkSampleObjcUITests.release.xcconfig */,
-				DE148C0DE2360E98A86BCCB5 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig */,
-				F6DF53B349B996FA2268BAB4 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig */,
+				B5B27342AEAC965EB69FDAE4 /* Pods_BliinkSampleObjc.framework */,
+				42837EFA6AA8CEBB4A8E56E3 /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework */,
+				D1C94E7462701C9678D83DB4 /* Pods_BliinkSampleObjcTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		34AA5E4EDDFCA1D226EE06B7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B6EC84D1EA78E2857416B983 /* Pods-BliinkSampleObjc.debug.xcconfig */,
+				64842A81F7639792F41F962C /* Pods-BliinkSampleObjc.release.xcconfig */,
+				51EF677E57738347A6A6A074 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig */,
+				9954DE2DDC79F69E9CB51568 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig */,
+				90CC0A5198058723C9DD1700 /* Pods-BliinkSampleObjcTests.debug.xcconfig */,
+				F0B4ABE77730DAFFC6DFB76B /* Pods-BliinkSampleObjcTests.release.xcconfig */,
 			);
 			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 		3A2CF4EA2110B59800CAA31E = {
@@ -120,8 +127,8 @@
 				3A2CF50E2110B59900CAA31E /* BliinkSampleObjcTests */,
 				3A2CF5192110B59900CAA31E /* BliinkSampleObjcUITests */,
 				3A2CF4F42110B59800CAA31E /* Products */,
-				3A2CF5282110B66C00CAA31E /* Frameworks */,
-				108654334A710CBC1F51A620 /* Pods */,
+				34AA5E4EDDFCA1D226EE06B7 /* Pods */,
+				0D5E6768C754BEED8506F160 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -164,16 +171,6 @@
 				3A2CF51C2110B59900CAA31E /* Info.plist */,
 			);
 			path = BliinkSampleObjcUITests;
-			sourceTree = "<group>";
-		};
-		3A2CF5282110B66C00CAA31E /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EB296F9DDAE88A04286ADD9B /* Pods_BliinkSampleObjc.framework */,
-				7D06E13EECECA0B89ADB2B05 /* Pods_BliinkSampleObjc_BliinkSampleObjcUITests.framework */,
-				D1863660D539C16AB1A78FB3 /* Pods_BliinkSampleObjcTests.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3AD9397F2111C001003E4511 /* Ui */ = {
@@ -220,11 +217,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A2CF51F2110B59900CAA31E /* Build configuration list for PBXNativeTarget "BliinkSampleObjc" */;
 			buildPhases = (
-				6B225E1FC300FE4EA4C0A718 /* [CP] Check Pods Manifest.lock */,
+				FA32704CBED8280FC31C79CA /* [CP] Check Pods Manifest.lock */,
 				3A2CF4EF2110B59800CAA31E /* Sources */,
 				3A2CF4F02110B59800CAA31E /* Frameworks */,
 				3A2CF4F12110B59800CAA31E /* Resources */,
-				422E4FDB9958BEF6E60148F5 /* [CP] Embed Pods Frameworks */,
+				8E4243FDC54A7AABCEEC00D3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -239,7 +236,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A2CF5222110B59900CAA31E /* Build configuration list for PBXNativeTarget "BliinkSampleObjcTests" */;
 			buildPhases = (
-				5B15C854377BAC11200A8981 /* [CP] Check Pods Manifest.lock */,
+				514765AB3AE5F574D4B2C43E /* [CP] Check Pods Manifest.lock */,
 				3A2CF5072110B59900CAA31E /* Sources */,
 				3A2CF5082110B59900CAA31E /* Frameworks */,
 				3A2CF5092110B59900CAA31E /* Resources */,
@@ -258,11 +255,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A2CF5252110B59900CAA31E /* Build configuration list for PBXNativeTarget "BliinkSampleObjcUITests" */;
 			buildPhases = (
-				11B296E579E298F3C0203D46 /* [CP] Check Pods Manifest.lock */,
+				AEB9FAF32395099382C9DC66 /* [CP] Check Pods Manifest.lock */,
 				3A2CF5122110B59900CAA31E /* Sources */,
 				3A2CF5132110B59900CAA31E /* Frameworks */,
 				3A2CF5142110B59900CAA31E /* Resources */,
-				215C012486C92DA890AA654D /* [CP] Embed Pods Frameworks */,
+				BD126A847E7554AD7AD2A5FA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -344,42 +341,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		11B296E579E298F3C0203D46 /* [CP] Check Pods Manifest.lock */ = {
+		514765AB3AE5F574D4B2C43E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BliinkSampleObjc-BliinkSampleObjcUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BliinkSampleObjcTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		215C012486C92DA890AA654D /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		422E4FDB9958BEF6E60148F5 /* [CP] Embed Pods Frameworks */ = {
+		8E4243FDC54A7AABCEEC00D3 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -396,34 +380,59 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BliinkSampleObjc/Pods-BliinkSampleObjc-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5B15C854377BAC11200A8981 /* [CP] Check Pods Manifest.lock */ = {
+		AEB9FAF32395099382C9DC66 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-BliinkSampleObjcTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-BliinkSampleObjc-BliinkSampleObjcUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		6B225E1FC300FE4EA4C0A718 /* [CP] Check Pods Manifest.lock */ = {
+		BD126A847E7554AD7AD2A5FA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BliinkSampleObjc-BliinkSampleObjcUITests/Pods-BliinkSampleObjc-BliinkSampleObjcUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA32704CBED8280FC31C79CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-BliinkSampleObjc-checkManifestLockResult.txt",
 			);
@@ -611,13 +620,10 @@
 		};
 		3A2CF5202110B59900CAA31E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FFB59DE89901B267FEF74997 /* Pods-BliinkSampleObjc.debug.xcconfig */;
+			baseConfigurationReference = B6EC84D1EA78E2857416B983 /* Pods-BliinkSampleObjc.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"ARCHS[sdk=iphonesimulator*]" = (
-					x86_64,
-					i368,
-				);
+				"ARCHS[sdk=iphonesimulator*]" = "x86_64 i368";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 33X47768Y2;
@@ -636,7 +642,7 @@
 		};
 		3A2CF5212110B59900CAA31E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 183A2749FDC63C610AE5C796 /* Pods-BliinkSampleObjc.release.xcconfig */;
+			baseConfigurationReference = 64842A81F7639792F41F962C /* Pods-BliinkSampleObjc.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -656,7 +662,7 @@
 		};
 		3A2CF5232110B59900CAA31E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67E07037B889F23A263A4A7A /* Pods-BliinkSampleObjcTests.debug.xcconfig */;
+			baseConfigurationReference = 90CC0A5198058723C9DD1700 /* Pods-BliinkSampleObjcTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -675,7 +681,7 @@
 		};
 		3A2CF5242110B59900CAA31E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D1DDD0E7C64C9DDDCE0A385 /* Pods-BliinkSampleObjcTests.release.xcconfig */;
+			baseConfigurationReference = F0B4ABE77730DAFFC6DFB76B /* Pods-BliinkSampleObjcTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -694,7 +700,7 @@
 		};
 		3A2CF5262110B59900CAA31E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DE148C0DE2360E98A86BCCB5 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig */;
+			baseConfigurationReference = 51EF677E57738347A6A6A074 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BliinkSampleObjcUITests/Info.plist;
@@ -712,7 +718,7 @@
 		};
 		3A2CF5272110B59900CAA31E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F6DF53B349B996FA2268BAB4 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig */;
+			baseConfigurationReference = 9954DE2DDC79F69E9CB51568 /* Pods-BliinkSampleObjc-BliinkSampleObjcUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BliinkSampleObjcUITests/Info.plist;

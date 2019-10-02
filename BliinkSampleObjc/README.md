@@ -45,12 +45,10 @@ In your file **AppDelegate.m** you need to create an instance of **BLIINK SDK**:
 ```
 BLIINK *bliink = [BLIINK  getInstance];
 
-[bliink initializeWithNetwork_id: NETWORK_ID  site_id: SITE_ID  authorizeLocation: true  timeout: TIMEOUT];
+[sharedManager initializeWithAuthorizeLocation: true timeout: TIMEOUT];
 ```
 
 **Parameters:**
-- **network_id * _(Integer)_:** It's your network id
-- **site_id * _(Integer)_:** It's your site id
 - **authorizeLocation _(Boolean)_:** This parameter is optional and false by default. It's a boolean to authorize or not the location
 - **timeout _(Integer)_:** This parameter is optional and set to 5 seconds by default. It's the timeout that will be used to request the ad
 
@@ -75,7 +73,7 @@ In your **ViewController.m** file call the **loadAd** function with the tag ID, 
 
 **Handlers**
 ```
-- (void)adLoadingCompletedWithAdContent:(BLIINKAdContent * _Nonnull)adContent {
+- (void)adLoadingCompletedWithAdContent:(Ad * _Nonnull)adContent {
   NSLog(@"adLoadingCompletedWithAdContent");
 }
 
