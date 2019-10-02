@@ -1,0 +1,16 @@
+PODS:
+  - BliinkSdk (2.0.0)
+
+DEPENDENCIES:
+  - BliinkSdk (= 2.0.0)
+
+SPEC REPOS:
+  trunk:
+    - BliinkSdk
+
+SPEC CHECKSUMS:
+  BliinkSdk: 66bb9a0dd8f219b5ff09288128503028d6ad6227
+
+PODFILE CHECKSUM: 9fad5a7ace0b1d380fa28d68c3c6ec7561626bd9
+
+COCOAPODS: 1.8.1

@@ -1,0 +1,1088 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		F8507C899C7888FA4451D1719A74CF10 /* BliinkSdk */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BA6C0A826977565A95B47C7445638CAD /* Build configuration list for PBXAggregateTarget "BliinkSdk" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = BliinkSdk;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		142F1BF0CED63EEA0FB49370361385DE /* Pods-BliinkSampleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30EF0ED5E08B09D36A34409B3CB71F64 /* Pods-BliinkSampleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CCE3AD085E860E3DFE932ECB379B76E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4351F712A772424F15FE26ACC5C37342 /* Pods-BliinkSampleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 939C2C1B4FA1C0F39B2AD7C207A5875B /* Pods-BliinkSampleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43627177E5D5F7608CE2F3DB64A52F2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A02B823ADDC9E68942A2CE710789AFE2 /* Pods-BliinkSampleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 767921CB105D0613930A8B8573879ED2 /* Pods-BliinkSampleTests-dummy.m */; };
+		A24DF90C20500B295854D3D78F415110 /* Pods-BliinkSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5858E922BBF9C6D819660442765C05 /* Pods-BliinkSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF973B70227F1DE162F7B70FE829155C /* Pods-BliinkSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 805328E270A7018A78FADCA266B33E6C /* Pods-BliinkSample-dummy.m */; };
+		DE81497B23124E55A167F1FD20A97BDE /* Pods-BliinkSampleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A507269BBAAE08AA9726D968401C0530 /* Pods-BliinkSampleUITests-dummy.m */; };
+		EEE66D4320EEF8A6AC23DF2F26B56F14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1612E722DE7A184EDBEE025CE67F7B1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F5B84B590A4FB7BA4E12F94AF8D9A2;
+			remoteInfo = "Pods-BliinkSample";
+		};
+		AB4FCD2910DB6E34EB038747201CA80A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F5B84B590A4FB7BA4E12F94AF8D9A2;
+			remoteInfo = "Pods-BliinkSample";
+		};
+		C7F1D5D2D5AC41E5B40C811F6682754F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8507C899C7888FA4451D1719A74CF10;
+			remoteInfo = BliinkSdk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		009BF221AD0810CF8C05D0B1E8F3CBD7 /* Pods-BliinkSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BliinkSample-frameworks.sh"; sourceTree = "<group>"; };
+		0583CA9DC2B8A53B4BCA1BEB731F3D5E /* Pods-BliinkSampleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BliinkSampleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		11CDD5EC2FB3EDB89592F6E1981E9B92 /* Pods-BliinkSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2761AE43C6EAADE9F31509DE0CC06EC7 /* BliinkSdk.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BliinkSdk.xcconfig; sourceTree = "<group>"; };
+		30EF0ED5E08B09D36A34409B3CB71F64 /* Pods-BliinkSampleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BliinkSampleUITests-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		356C4A67E9FB1E79330359D15AF7F0B8 /* BliinkSdk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BliinkSdk.h; path = BliinkSdk/BliinkSdk.framework/Headers/BliinkSdk.h; sourceTree = "<group>"; };
+		361BD1A864B73F05E7C42BD9AB41BB50 /* Pods-BliinkSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BliinkSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		40CB5955539803B5464C0F18C196715A /* Pods-BliinkSampleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BliinkSampleUITests.modulemap"; sourceTree = "<group>"; };
+		41051FE77E552EF51F8C972C3B2DAA11 /* Pods-BliinkSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BliinkSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		41B2CFB54F43AE6738549AAC58F8C1EC /* Pods-BliinkSampleUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BliinkSampleUITests-Info.plist"; sourceTree = "<group>"; };
+		4D84AA9A1001F44AC26EE658D87750FF /* BliinkSdk-Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "BliinkSdk-Swift.h"; path = "BliinkSdk/BliinkSdk.framework/Headers/BliinkSdk-Swift.h"; sourceTree = "<group>"; };
+		5517115D7821ED99DA8553E5EDDB933B /* Pods_BliinkSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BliinkSampleUITests.framework; path = "Pods-BliinkSampleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		605BA07CAD17DAB21795457DC61882B4 /* Pods-BliinkSampleUITests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSampleUITests.staging.xcconfig"; sourceTree = "<group>"; };
+		702A1BED07A7D5DFFC05928569B28B37 /* Pods-BliinkSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSample.release.xcconfig"; sourceTree = "<group>"; };
+		767921CB105D0613930A8B8573879ED2 /* Pods-BliinkSampleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BliinkSampleTests-dummy.m"; sourceTree = "<group>"; };
+		78D216E7B2C34B7FEE5D772240276061 /* BliinkSdk.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BliinkSdk.framework; path = BliinkSdk/BliinkSdk.framework; sourceTree = "<group>"; };
+		7B80FE6E5D4191CAB8B52B220EDFC9E8 /* Pods-BliinkSampleTests.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSampleTests.staging.xcconfig"; sourceTree = "<group>"; };
+		805328E270A7018A78FADCA266B33E6C /* Pods-BliinkSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BliinkSample-dummy.m"; sourceTree = "<group>"; };
+		8F5858E922BBF9C6D819660442765C05 /* Pods-BliinkSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BliinkSample-umbrella.h"; sourceTree = "<group>"; };
+		939C2C1B4FA1C0F39B2AD7C207A5875B /* Pods-BliinkSampleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BliinkSampleTests-umbrella.h"; sourceTree = "<group>"; };
+		98A192B02A0436F0ABED2078B71FFEFC /* Pods_BliinkSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BliinkSample.framework; path = "Pods-BliinkSample.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A82118415DC728187531BE31B03D539 /* Pods-BliinkSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F655ED0ADFADAE70A391BC77364FD20 /* Pods-BliinkSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A507269BBAAE08AA9726D968401C0530 /* Pods-BliinkSampleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BliinkSampleUITests-dummy.m"; sourceTree = "<group>"; };
+		A768CE44530C63D4943BF8C930FD41AB /* Pods-BliinkSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B313329F261BEAF13CEC4AF5C25BE739 /* Pods-BliinkSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BliinkSample-Info.plist"; sourceTree = "<group>"; };
+		BB91F4A7646CC1A26BBA2A3349BB22F3 /* Pods-BliinkSampleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BliinkSampleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BF9602A77D1C21B49EAA0A5333FA1103 /* Pods-BliinkSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BliinkSample.modulemap"; sourceTree = "<group>"; };
+		CFA9ED1A2A49E934C5C1F9CACF277EA0 /* Pods-BliinkSampleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BliinkSampleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D5BF32CDBA50E46AAB24D76B6A93D52E /* Pods_BliinkSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BliinkSampleTests.framework; path = "Pods-BliinkSampleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ACAD51F967C1492EAC068BA5934768 /* Pods-BliinkSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSample.debug.xcconfig"; sourceTree = "<group>"; };
+		DE06C43F51F5631140538F66F6BC0405 /* Pods-BliinkSampleTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BliinkSampleTests-Info.plist"; sourceTree = "<group>"; };
+		E8D860FB033750C72708948D3E790806 /* Pods-BliinkSampleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BliinkSampleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1A05D79E657625C53716557522985D7 /* Pods-BliinkSample.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BliinkSample.staging.xcconfig"; sourceTree = "<group>"; };
+		FE8DDB96F0ABCD44739B6790776F9994 /* Pods-BliinkSampleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BliinkSampleTests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1C0D81323C41413DC3B29D86E9E4EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEE66D4320EEF8A6AC23DF2F26B56F14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBBA9E47F22FEA49F4777D202B7708FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43627177E5D5F7608CE2F3DB64A52F2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E99BB39B0BB0D3E3D4DD52889C9ADC5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CCE3AD085E860E3DFE932ECB379B76E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		086C4F6416AE592B4B58AA200F17F4B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2761AE43C6EAADE9F31509DE0CC06EC7 /* BliinkSdk.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BliinkSdk";
+			sourceTree = "<group>";
+		};
+		2A1177EB7089A275B4244B99D60590E2 /* Pods-BliinkSample */ = {
+			isa = PBXGroup;
+			children = (
+				BF9602A77D1C21B49EAA0A5333FA1103 /* Pods-BliinkSample.modulemap */,
+				361BD1A864B73F05E7C42BD9AB41BB50 /* Pods-BliinkSample-acknowledgements.markdown */,
+				41051FE77E552EF51F8C972C3B2DAA11 /* Pods-BliinkSample-acknowledgements.plist */,
+				805328E270A7018A78FADCA266B33E6C /* Pods-BliinkSample-dummy.m */,
+				009BF221AD0810CF8C05D0B1E8F3CBD7 /* Pods-BliinkSample-frameworks.sh */,
+				B313329F261BEAF13CEC4AF5C25BE739 /* Pods-BliinkSample-Info.plist */,
+				8F5858E922BBF9C6D819660442765C05 /* Pods-BliinkSample-umbrella.h */,
+				D6ACAD51F967C1492EAC068BA5934768 /* Pods-BliinkSample.debug.xcconfig */,
+				702A1BED07A7D5DFFC05928569B28B37 /* Pods-BliinkSample.release.xcconfig */,
+				F1A05D79E657625C53716557522985D7 /* Pods-BliinkSample.staging.xcconfig */,
+			);
+			name = "Pods-BliinkSample";
+			path = "Target Support Files/Pods-BliinkSample";
+			sourceTree = "<group>";
+		};
+		3C97D4C37F34635AA71BE32B21553B10 /* Pods-BliinkSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE8DDB96F0ABCD44739B6790776F9994 /* Pods-BliinkSampleTests.modulemap */,
+				0583CA9DC2B8A53B4BCA1BEB731F3D5E /* Pods-BliinkSampleTests-acknowledgements.markdown */,
+				CFA9ED1A2A49E934C5C1F9CACF277EA0 /* Pods-BliinkSampleTests-acknowledgements.plist */,
+				767921CB105D0613930A8B8573879ED2 /* Pods-BliinkSampleTests-dummy.m */,
+				DE06C43F51F5631140538F66F6BC0405 /* Pods-BliinkSampleTests-Info.plist */,
+				939C2C1B4FA1C0F39B2AD7C207A5875B /* Pods-BliinkSampleTests-umbrella.h */,
+				11CDD5EC2FB3EDB89592F6E1981E9B92 /* Pods-BliinkSampleTests.debug.xcconfig */,
+				9F655ED0ADFADAE70A391BC77364FD20 /* Pods-BliinkSampleTests.release.xcconfig */,
+				7B80FE6E5D4191CAB8B52B220EDFC9E8 /* Pods-BliinkSampleTests.staging.xcconfig */,
+			);
+			name = "Pods-BliinkSampleTests";
+			path = "Target Support Files/Pods-BliinkSampleTests";
+			sourceTree = "<group>";
+		};
+		5251C271A7E29FB1B7A873556FFF8EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				78D216E7B2C34B7FEE5D772240276061 /* BliinkSdk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		56BE998BAE184B3378221E6036196D27 /* Pods-BliinkSampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40CB5955539803B5464C0F18C196715A /* Pods-BliinkSampleUITests.modulemap */,
+				BB91F4A7646CC1A26BBA2A3349BB22F3 /* Pods-BliinkSampleUITests-acknowledgements.markdown */,
+				E8D860FB033750C72708948D3E790806 /* Pods-BliinkSampleUITests-acknowledgements.plist */,
+				A507269BBAAE08AA9726D968401C0530 /* Pods-BliinkSampleUITests-dummy.m */,
+				41B2CFB54F43AE6738549AAC58F8C1EC /* Pods-BliinkSampleUITests-Info.plist */,
+				30EF0ED5E08B09D36A34409B3CB71F64 /* Pods-BliinkSampleUITests-umbrella.h */,
+				A768CE44530C63D4943BF8C930FD41AB /* Pods-BliinkSampleUITests.debug.xcconfig */,
+				9A82118415DC728187531BE31B03D539 /* Pods-BliinkSampleUITests.release.xcconfig */,
+				605BA07CAD17DAB21795457DC61882B4 /* Pods-BliinkSampleUITests.staging.xcconfig */,
+			);
+			name = "Pods-BliinkSampleUITests";
+			path = "Target Support Files/Pods-BliinkSampleUITests";
+			sourceTree = "<group>";
+		};
+		72D78412D8412A1DD49FDDE2514B6E14 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A1177EB7089A275B4244B99D60590E2 /* Pods-BliinkSample */,
+				3C97D4C37F34635AA71BE32B21553B10 /* Pods-BliinkSampleTests */,
+				56BE998BAE184B3378221E6036196D27 /* Pods-BliinkSampleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8BF28BE25A3940FEAF1FB39CDFC9FE55 /* BliinkSdk */ = {
+			isa = PBXGroup;
+			children = (
+				356C4A67E9FB1E79330359D15AF7F0B8 /* BliinkSdk.h */,
+				4D84AA9A1001F44AC26EE658D87750FF /* BliinkSdk-Swift.h */,
+				5251C271A7E29FB1B7A873556FFF8EAD /* Frameworks */,
+				086C4F6416AE592B4B58AA200F17F4B8 /* Support Files */,
+			);
+			name = BliinkSdk;
+			path = BliinkSdk;
+			sourceTree = "<group>";
+		};
+		91FE421F4B3E831A1A12791664562A78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8BF28BE25A3940FEAF1FB39CDFC9FE55 /* BliinkSdk */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				91FE421F4B3E831A1A12791664562A78 /* Pods */,
+				DEE0DE2697235A2606C97870EE250560 /* Products */,
+				72D78412D8412A1DD49FDDE2514B6E14 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEE0DE2697235A2606C97870EE250560 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98A192B02A0436F0ABED2078B71FFEFC /* Pods_BliinkSample.framework */,
+				D5BF32CDBA50E46AAB24D76B6A93D52E /* Pods_BliinkSampleTests.framework */,
+				5517115D7821ED99DA8553E5EDDB933B /* Pods_BliinkSampleUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A791B20273E72D86FDF500C39A278BC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4351F712A772424F15FE26ACC5C37342 /* Pods-BliinkSampleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B500CE75A87C20BBF6FEE7308EEF71A6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24DF90C20500B295854D3D78F415110 /* Pods-BliinkSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D993259A6F3E5518AFFD741953FF9C4C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				142F1BF0CED63EEA0FB49370361385DE /* Pods-BliinkSampleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C41868DA2C6BBA21AC0CFE915CAEC83 /* Pods-BliinkSampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0200695511910040896A9F1FBF6E5B41 /* Build configuration list for PBXNativeTarget "Pods-BliinkSampleUITests" */;
+			buildPhases = (
+				D993259A6F3E5518AFFD741953FF9C4C /* Headers */,
+				9BB56D022ED82C3DF7048A665F99636E /* Sources */,
+				E99BB39B0BB0D3E3D4DD52889C9ADC5D /* Frameworks */,
+				3190E736442B32FA97464579D8D4CC4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				97BC21CCDF11F91CB19C60F07F6D4CBA /* PBXTargetDependency */,
+			);
+			name = "Pods-BliinkSampleUITests";
+			productName = "Pods-BliinkSampleUITests";
+			productReference = 5517115D7821ED99DA8553E5EDDB933B /* Pods_BliinkSampleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52F5B84B590A4FB7BA4E12F94AF8D9A2 /* Pods-BliinkSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EF98DD0F79A33D0E24270DBB00E254A /* Build configuration list for PBXNativeTarget "Pods-BliinkSample" */;
+			buildPhases = (
+				B500CE75A87C20BBF6FEE7308EEF71A6 /* Headers */,
+				5E35AEA1F5B2480946DEF2657056E527 /* Sources */,
+				DBBA9E47F22FEA49F4777D202B7708FE /* Frameworks */,
+				90D87E7452BAC79F6EDFA465F1C77448 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF73B5306D49C09D94CF8C8C5F8D026A /* PBXTargetDependency */,
+			);
+			name = "Pods-BliinkSample";
+			productName = "Pods-BliinkSample";
+			productReference = 98A192B02A0436F0ABED2078B71FFEFC /* Pods_BliinkSample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6400B439676BD17D1E5B8010DB88D1B /* Pods-BliinkSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCD6878E1339B4B24CA9BF0724A2F2D7 /* Build configuration list for PBXNativeTarget "Pods-BliinkSampleTests" */;
+			buildPhases = (
+				A791B20273E72D86FDF500C39A278BC1 /* Headers */,
+				74C6B4AC406A81114D3AEE9CF1B6939B /* Sources */,
+				C1C0D81323C41413DC3B29D86E9E4EBD /* Frameworks */,
+				22C9F136DE8223066050363847924F12 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4BFA732B81A312A825E3EC6581175615 /* PBXTargetDependency */,
+			);
+			name = "Pods-BliinkSampleTests";
+			productName = "Pods-BliinkSampleTests";
+			productReference = D5BF32CDBA50E46AAB24D76B6A93D52E /* Pods_BliinkSampleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 11.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DEE0DE2697235A2606C97870EE250560 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8507C899C7888FA4451D1719A74CF10 /* BliinkSdk */,
+				52F5B84B590A4FB7BA4E12F94AF8D9A2 /* Pods-BliinkSample */,
+				B6400B439676BD17D1E5B8010DB88D1B /* Pods-BliinkSampleTests */,
+				0C41868DA2C6BBA21AC0CFE915CAEC83 /* Pods-BliinkSampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22C9F136DE8223066050363847924F12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3190E736442B32FA97464579D8D4CC4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90D87E7452BAC79F6EDFA465F1C77448 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E35AEA1F5B2480946DEF2657056E527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF973B70227F1DE162F7B70FE829155C /* Pods-BliinkSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74C6B4AC406A81114D3AEE9CF1B6939B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A02B823ADDC9E68942A2CE710789AFE2 /* Pods-BliinkSampleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB56D022ED82C3DF7048A665F99636E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE81497B23124E55A167F1FD20A97BDE /* Pods-BliinkSampleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4BFA732B81A312A825E3EC6581175615 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BliinkSample";
+			target = 52F5B84B590A4FB7BA4E12F94AF8D9A2 /* Pods-BliinkSample */;
+			targetProxy = AB4FCD2910DB6E34EB038747201CA80A /* PBXContainerItemProxy */;
+		};
+		97BC21CCDF11F91CB19C60F07F6D4CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BliinkSample";
+			target = 52F5B84B590A4FB7BA4E12F94AF8D9A2 /* Pods-BliinkSample */;
+			targetProxy = 1612E722DE7A184EDBEE025CE67F7B1D /* PBXContainerItemProxy */;
+		};
+		EF73B5306D49C09D94CF8C8C5F8D026A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BliinkSdk;
+			target = F8507C899C7888FA4451D1719A74CF10 /* BliinkSdk */;
+			targetProxy = C7F1D5D2D5AC41E5B40C811F6682754F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		166BAA75D43B7C5087A47C57622B3C1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 702A1BED07A7D5DFFC05928569B28B37 /* Pods-BliinkSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSample/Pods-BliinkSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSample/Pods-BliinkSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		29C4CF477CB6DE12B055EE12487B820B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6ACAD51F967C1492EAC068BA5934768 /* Pods-BliinkSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSample/Pods-BliinkSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSample/Pods-BliinkSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3D24D6ACB8F4D4C3CD9020711E612B4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F655ED0ADFADAE70A391BC77364FD20 /* Pods-BliinkSampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSampleTests/Pods-BliinkSampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSampleTests/Pods-BliinkSampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		546C996FA4A5C966482D47C9D435150A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2761AE43C6EAADE9F31509DE0CC06EC7 /* BliinkSdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8118E566BD177FBA7CF206A81F80F44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A768CE44530C63D4943BF8C930FD41AB /* Pods-BliinkSampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSampleUITests/Pods-BliinkSampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSampleUITests/Pods-BliinkSampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9476DCA4454A67902730CA94C79D519A /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2761AE43C6EAADE9F31509DE0CC06EC7 /* BliinkSdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Staging;
+		};
+		96ED10E2BC52F7B0EE2CE9B338A5264D /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B80FE6E5D4191CAB8B52B220EDFC9E8 /* Pods-BliinkSampleTests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSampleTests/Pods-BliinkSampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSampleTests/Pods-BliinkSampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Staging;
+		};
+		B94B6619FE4A6C5E999CE65FA6C9E861 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_STAGING=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Staging;
+		};
+		C9FF47A97FFB92DE9CDA9F2E46DD8889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11CDD5EC2FB3EDB89592F6E1981E9B92 /* Pods-BliinkSampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSampleTests/Pods-BliinkSampleTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSampleTests/Pods-BliinkSampleTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6FA463CBDD2F8C0B41B810F0AA4D0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A82118415DC728187531BE31B03D539 /* Pods-BliinkSampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSampleUITests/Pods-BliinkSampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSampleUITests/Pods-BliinkSampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D766A26E629FAF1F0927A41B9B4986E5 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 605BA07CAD17DAB21795457DC61882B4 /* Pods-BliinkSampleUITests.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSampleUITests/Pods-BliinkSampleUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSampleUITests/Pods-BliinkSampleUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Staging;
+		};
+		E386B8F8688B713FCB82087DB11B6D12 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1A05D79E657625C53716557522985D7 /* Pods-BliinkSample.staging.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BliinkSample/Pods-BliinkSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BliinkSample/Pods-BliinkSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Staging;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F4A08D5EF59C6A53634AAA22BF076727 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2761AE43C6EAADE9F31509DE0CC06EC7 /* BliinkSdk.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0200695511910040896A9F1FBF6E5B41 /* Build configuration list for PBXNativeTarget "Pods-BliinkSampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8118E566BD177FBA7CF206A81F80F44B /* Debug */,
+				D6FA463CBDD2F8C0B41B810F0AA4D0EC /* Release */,
+				D766A26E629FAF1F0927A41B9B4986E5 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0EF98DD0F79A33D0E24270DBB00E254A /* Build configuration list for PBXNativeTarget "Pods-BliinkSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29C4CF477CB6DE12B055EE12487B820B /* Debug */,
+				166BAA75D43B7C5087A47C57622B3C1A /* Release */,
+				E386B8F8688B713FCB82087DB11B6D12 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+				B94B6619FE4A6C5E999CE65FA6C9E861 /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6C0A826977565A95B47C7445638CAD /* Build configuration list for PBXAggregateTarget "BliinkSdk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A08D5EF59C6A53634AAA22BF076727 /* Debug */,
+				546C996FA4A5C966482D47C9D435150A /* Release */,
+				9476DCA4454A67902730CA94C79D519A /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCD6878E1339B4B24CA9BF0724A2F2D7 /* Build configuration list for PBXNativeTarget "Pods-BliinkSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C9FF47A97FFB92DE9CDA9F2E46DD8889 /* Debug */,
+				3D24D6ACB8F4D4C3CD9020711E612B4A /* Release */,
+				96ED10E2BC52F7B0EE2CE9B338A5264D /* Staging */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

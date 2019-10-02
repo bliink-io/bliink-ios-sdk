@@ -1,0 +1,11 @@
+framework module BliinkSdk {
+  umbrella header "BliinkSdk.h"
+
+  export *
+  module * { export * }
+}
+
+module BliinkSdk.Swift {
+    header "BliinkSdk-Swift.h"
+    requires objc
+}
